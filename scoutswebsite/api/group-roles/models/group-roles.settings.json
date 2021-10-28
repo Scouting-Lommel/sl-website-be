@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "group_roles",
+  "info": {
+    "name": "GroupRoles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "unique": true,
+      "required": true
+    },
+    "function": {
+      "type": "boolean"
+    },
+    "user_group_roles": {
+      "via": "group_roles",
+      "collection": "user-roles"
+    }
+  }
+}

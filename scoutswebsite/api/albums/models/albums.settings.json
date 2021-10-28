@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "albums",
+  "info": {
+    "name": "Albums",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "images": {
+      "collection": "images",
+      "via": "album"
+    },
+    "albums": {
+      "collection": "albums",
+      "via": "album"
+    },
+    "album": {
+      "model": "albums",
+      "via": "albums"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groups",
+  "info": {
+    "name": "Groups",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "Kapoenen",
+        "Welpen",
+        "Jonggivers",
+        "Givers",
+        "Jin",
+        "Akabe"
+      ],
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text",
+      "unique": false,
+      "required": false
+    }
+  }
+}

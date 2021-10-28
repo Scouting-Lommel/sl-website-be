@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activities",
+  "info": {
+    "name": "Activities"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "startTime": {
+      "type": "datetime",
+      "required": true
+    },
+    "endTime": {
+      "type": "datetime"
+    },
+    "group": {
+      "model": "groups"
+    }
+  }
+}
