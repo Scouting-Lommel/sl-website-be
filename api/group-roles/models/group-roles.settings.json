@@ -23,10 +23,6 @@
     },
     "function": {
       "type": "boolean"
-    },
-    "user_group_roles": {
-      "via": "group_roles",
-      "collection": "user-roles"
     }
   }
 }

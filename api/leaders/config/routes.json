@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/user-roles",
-      "handler": "user-roles.find",
+      "path": "/leaders",
+      "handler": "leaders.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/user-roles/count",
-      "handler": "user-roles.count",
+      "path": "/leaders/count",
+      "handler": "leaders.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/user-roles/:id",
-      "handler": "user-roles.findOne",
+      "path": "/leaders/:id",
+      "handler": "leaders.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/user-roles",
-      "handler": "user-roles.create",
+      "path": "/leaders",
+      "handler": "leaders.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/user-roles/:id",
-      "handler": "user-roles.update",
+      "path": "/leaders/:id",
+      "handler": "leaders.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/user-roles/:id",
-      "handler": "user-roles.delete",
+      "path": "/leaders/:id",
+      "handler": "leaders.delete",
       "config": {
         "policies": []
       }

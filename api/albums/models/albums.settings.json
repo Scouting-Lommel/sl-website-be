@@ -28,6 +28,13 @@
     "album": {
       "model": "albums",
       "via": "albums"
+    },
+    "public": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
