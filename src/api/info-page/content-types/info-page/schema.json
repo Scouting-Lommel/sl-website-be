@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "info_pages",
+  "info": {
+    "singularName": "info-page",
+    "pluralName": "info-pages",
+    "displayName": "InfoPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Info": {
+      "type": "richtext",
+      "required": true
+    },
+    "pictures": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

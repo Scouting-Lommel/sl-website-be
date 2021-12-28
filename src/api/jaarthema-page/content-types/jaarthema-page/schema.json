@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "jaarthema_pages",
+  "info": {
+    "singularName": "jaarthema-page",
+    "pluralName": "jaarthema-pages",
+    "displayName": "JaarthemaPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Explanation": {
+      "type": "richtext",
+      "required": true
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

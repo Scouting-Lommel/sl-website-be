@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qen_a_pages",
+  "info": {
+    "singularName": "qen-a-page",
+    "pluralName": "qen-a-pages",
+    "displayName": "QenAPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Question": {
+      "type": "richtext",
+      "required": true
+    },
+    "Answer": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

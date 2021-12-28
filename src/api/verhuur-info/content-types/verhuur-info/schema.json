@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "verhuur_infos",
+  "info": {
+    "singularName": "verhuur-info",
+    "pluralName": "verhuur-infos",
+    "displayName": "VerhuurPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "richtext",
+      "required": true
+    },
+    "pictures": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

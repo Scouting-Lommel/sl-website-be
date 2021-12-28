@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "verhuur_dates",
+  "info": {
+    "singularName": "verhuur-date",
+    "pluralName": "verhuur-dates",
+    "displayName": "VerhuurDates"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "huurder": {
+      "type": "string",
+      "required": true
+    },
+    "startDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "endDate": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "dn_a_pages",
+  "info": {
+    "singularName": "dn-a-page",
+    "pluralName": "dn-a-pages",
+    "displayName": "DnAPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Beleid": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
