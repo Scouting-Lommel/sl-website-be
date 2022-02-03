@@ -62,53 +62,6 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
-    },
-    "firstName": {
-      "type": "string",
-      "required": true
-    },
-    "lastName": {
-      "type": "string",
-      "required": true
-    },
-    "phone": {
-      "type": "string"
-    },
-    "address": {
-      "type": "string"
-    },
-    "occupation": {
-      "type": "string"
-    },
-    "birthday": {
-      "type": "date"
-    },
-    "totem": {
-      "type": "string"
-    },
-    "memberNr": {
-      "type": "string"
-    },
-    "active": {
-      "type": "boolean"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "group": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::group.group"
-    },
-    "group_role": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::group-role.group-role"
     }
   }
 }

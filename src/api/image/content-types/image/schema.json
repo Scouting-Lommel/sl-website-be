@@ -22,9 +22,9 @@
     },
     "album": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "api::album.album",
-      "mappedBy": "image"
+      "inversedBy": "images"
     }
   }
 }
