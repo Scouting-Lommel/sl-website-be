@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Jaarthema": {
-      "type": "string",
-      "required": true
-    },
     "Welkomtekst": {
       "type": "richtext",
       "required": true

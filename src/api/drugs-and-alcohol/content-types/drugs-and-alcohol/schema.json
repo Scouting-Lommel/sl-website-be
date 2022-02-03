@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "drugs_and_alcohols",
+  "info": {
+    "singularName": "drugs-and-alcohol",
+    "pluralName": "drugs-and-alcohols",
+    "displayName": "DrugsAndAlcohol"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Beleid": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

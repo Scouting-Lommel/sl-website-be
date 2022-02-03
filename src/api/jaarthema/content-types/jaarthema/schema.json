@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "jaarthemas",
+  "info": {
+    "singularName": "jaarthema",
+    "pluralName": "jaarthemas",
+    "displayName": "Jaarthema"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Jaarthema": {
+      "type": "string",
+      "required": true
+    },
+    "JaarthemaExplanation": {
+      "type": "richtext",
+      "required": true
+    },
+    "JaarthemaImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

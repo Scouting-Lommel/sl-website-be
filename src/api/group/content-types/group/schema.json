@@ -16,6 +16,45 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "Files": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "Title1": {
+      "type": "string",
+      "required": true
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "Text1": {
+      "type": "richtext",
+      "required": true
+    },
+    "Text2": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Image2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
