@@ -4,17 +4,14 @@
   "info": {
     "singularName": "verhuur-date",
     "pluralName": "verhuur-dates",
-    "displayName": "VerhuurDates"
+    "displayName": "VerhuurDates",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "huurder": {
-      "type": "string",
-      "required": true
-    },
     "startDate": {
       "type": "datetime",
       "required": true
