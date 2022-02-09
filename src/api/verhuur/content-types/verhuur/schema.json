@@ -4,7 +4,8 @@
   "info": {
     "singularName": "verhuur",
     "pluralName": "verhuurs",
-    "displayName": "Verhuur"
+    "displayName": "Verhuur",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -36,39 +37,36 @@
       "required": true
     },
     "Image1": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Image2": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Image3": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "Pricing": {
-      "type": "richtext",
-      "required": true
-    },
-    "Images": {
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "Images": {
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
