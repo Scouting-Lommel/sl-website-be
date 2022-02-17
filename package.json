@@ -1,5 +1,5 @@
 {
-  "name": "scouting-lommel-website-be",
+  "name": "scouting-lommel-cms",
   "private": true,
   "version": "0.1.0",
   "description": "Scouting Lommel website | Strapi CMS backend",
@@ -15,7 +15,7 @@
     "@strapi/plugin-i18n": "4.0.2",
     "@strapi/plugin-users-permissions": "4.0.2",
     "@strapi/strapi": "^4.0.7",
-    "sqlite3": "5.0.2"
+    "mysql": "^2.18.1"
   },
   "author": {
     "name": "Scouting Lommel"
