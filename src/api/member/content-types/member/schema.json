@@ -4,7 +4,8 @@
   "info": {
     "singularName": "member",
     "pluralName": "members",
-    "displayName": "Members"
+    "displayName": "Members",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -48,6 +49,9 @@
       "type": "boolean"
     },
     "Year": {
+      "type": "string"
+    },
+    "Sex": {
       "type": "string"
     }
   }
