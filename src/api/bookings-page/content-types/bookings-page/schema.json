@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "bookings_pages",
+  "info": {
+    "singularName": "bookings-page",
+    "pluralName": "bookings-pages",
+    "displayName": "BookingsPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BookingsPage": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.image-text",
+        "content-blocks.call-to-action",
+        "content-blocks.calendar",
+        "content-blocks.text-section",
+        "content-blocks.gallery"
+      ]
+    }
+  }
+}

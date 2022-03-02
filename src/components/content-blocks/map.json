@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_renting_maps",
+  "info": {
+    "displayName": "Map",
+    "icon": "map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Coords": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

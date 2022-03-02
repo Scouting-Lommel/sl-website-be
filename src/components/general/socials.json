@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_info_socials",
+  "info": {
+    "displayName": "Socials",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Socials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::social.social"
+    }
+  }
+}

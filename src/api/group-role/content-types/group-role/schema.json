@@ -4,7 +4,8 @@
   "info": {
     "singularName": "group-role",
     "pluralName": "group-roles",
-    "displayName": "GroupRoles"
+    "displayName": "GroupRoles",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +17,7 @@
       "required": true,
       "unique": true
     },
-    "description": {
+    "Description": {
       "type": "richtext",
       "required": true
     }

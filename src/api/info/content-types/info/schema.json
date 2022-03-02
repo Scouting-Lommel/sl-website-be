@@ -1,20 +1,24 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "infos",
   "info": {
     "singularName": "info",
     "pluralName": "infos",
-    "displayName": "Info",
-    "description": ""
+    "displayName": "Info"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "LocationExplanation": {
-      "type": "richtext",
-      "required": true
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "richtext"
+    },
+    "Published": {
+      "type": "boolean"
     }
   }
 }

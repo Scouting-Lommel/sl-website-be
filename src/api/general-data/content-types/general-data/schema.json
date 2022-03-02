@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "general_datas",
+  "info": {
+    "singularName": "general-data",
+    "pluralName": "general-datas",
+    "displayName": "GeneralData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "GeneralData": {
+      "type": "dynamiczone",
+      "components": [
+        "general.footer",
+        "general.socials",
+        "content-blocks.address",
+        "general.header"
+      ]
+    }
+  }
+}
