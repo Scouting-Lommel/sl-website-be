@@ -18,7 +18,7 @@
     "LastName": {
       "type": "string"
     },
-    "BirthDay": {
+    "Birthday": {
       "type": "date"
     },
     "Street": {
@@ -39,10 +39,10 @@
     "Phone": {
       "type": "string"
     },
-    "gsm": {
+    "GSM": {
       "type": "string"
     },
-    "email": {
+    "Email": {
       "type": "string"
     },
     "Akabe": {
