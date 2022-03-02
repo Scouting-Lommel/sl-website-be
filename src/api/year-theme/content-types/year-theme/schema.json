@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "year_themes",
+  "info": {
+    "singularName": "year-theme",
+    "pluralName": "year-themes",
+    "displayName": "YearTheme"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ActiveYear": {
+      "type": "date"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

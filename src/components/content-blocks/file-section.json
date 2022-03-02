@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_group_file_sections",
+  "info": {
+    "displayName": "FileSection",
+    "icon": "coins",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Files": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}

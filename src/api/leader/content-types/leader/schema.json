@@ -44,9 +44,6 @@
         "images"
       ]
     },
-    "Info": {
-      "type": "richtext"
-    },
     "group_roles": {
       "type": "relation",
       "relation": "oneToMany",
@@ -56,6 +53,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::group.group"
+    },
+    "Address": {
+      "type": "string"
     }
   }
 }

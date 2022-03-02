@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "Name": {
       "type": "string",
       "required": true,
       "unique": true
@@ -25,36 +25,12 @@
         "files"
       ]
     },
-    "Title1": {
-      "type": "string",
-      "required": true
-    },
-    "Title2": {
-      "type": "string"
-    },
-    "Text1": {
-      "type": "richtext",
-      "required": true
-    },
-    "Text2": {
-      "type": "richtext",
-      "required": true
-    },
-    "Image1": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
+    "Image": {
       "allowedTypes": [
         "images"
-      ]
-    },
-    "Image2": {
+      ],
       "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "multiple": false
     }
   }
 }

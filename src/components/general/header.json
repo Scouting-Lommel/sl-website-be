@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_general_headers",
+  "info": {
+    "displayName": "Header",
+    "icon": "arrow-alt-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Navigation": {
+      "displayName": "Navigation",
+      "type": "component",
+      "repeatable": false,
+      "component": "general.navigation"
+    }
+  }
+}

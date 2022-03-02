@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Members",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Birthday": {
+      "type": "date"
+    },
+    "Street": {
+      "type": "string"
+    },
+    "Number": {
+      "type": "string"
+    },
+    "Bus": {
+      "type": "string"
+    },
+    "PostCode": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "GSM": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Akabe": {
+      "type": "boolean"
+    },
+    "Year": {
+      "type": "string"
+    },
+    "Sex": {
+      "type": "string"
+    }
+  }
+}

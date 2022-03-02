@@ -12,19 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "startTime": {
+    "StartTime": {
       "type": "datetime",
       "required": true
     },
-    "endTime": {
+    "EndTime": {
       "type": "datetime",
       "required": true
     },
-    "description": {
+    "Description": {
       "type": "richtext",
       "required": true
     },
-    "groups": {
+    "Group": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::group.group"

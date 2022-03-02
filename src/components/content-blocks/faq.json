@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_info_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Info": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::info.info"
+    }
+  }
+}

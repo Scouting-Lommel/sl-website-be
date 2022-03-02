@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_info_blogs",
+  "info": {
+    "displayName": "Blog",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "InitialItems": {
+      "type": "integer"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
+    },
+    "Articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}
