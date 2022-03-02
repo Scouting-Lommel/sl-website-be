@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "bookings_pages",
+  "info": {
+    "singularName": "bookings-page",
+    "pluralName": "bookings-pages",
+    "displayName": "BookingsPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BookingsPage": {
+      "type": "dynamiczone",
+      "components": [
+        "info.image-text",
+        "info.call-to-action",
+        "renting.calendar",
+        "info.text-section",
+        "info.gallery"
+      ]
+    }
+  }
+}

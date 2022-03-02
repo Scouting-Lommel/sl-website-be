@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "groups_pages",
+  "info": {
+    "singularName": "groups-page",
+    "pluralName": "groups-pages",
+    "displayName": "GroupsPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "GroupsPage": {
+      "type": "dynamiczone",
+      "components": [
+        "info.image-text",
+        "info.call-to-action",
+        "info.carousel"
+      ]
+    }
+  }
+}

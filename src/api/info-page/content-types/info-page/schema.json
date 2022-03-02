@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "info_pages",
+  "info": {
+    "singularName": "info-page",
+    "pluralName": "info-pages",
+    "displayName": "InfoPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InfoPage": {
+      "type": "dynamiczone",
+      "components": [
+        "info.image-text",
+        "info.call-to-action",
+        "info.faq",
+        "renting.map"
+      ]
+    }
+  }
+}

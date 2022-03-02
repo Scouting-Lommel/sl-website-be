@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "group_pages",
+  "info": {
+    "singularName": "group-page",
+    "pluralName": "group-pages",
+    "displayName": "GroupPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "GroupPage": {
+      "type": "dynamiczone",
+      "components": [
+        "info.image-text",
+        "info.carousel",
+        "group.activities-section",
+        "group.file-section"
+      ]
+    }
+  }
+}
