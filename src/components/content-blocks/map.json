@@ -2,7 +2,8 @@
   "collectionName": "components_renting_maps",
   "info": {
     "displayName": "Map",
-    "icon": "map"
+    "icon": "map",
+    "description": ""
   },
   "options": {},
   "attributes": {

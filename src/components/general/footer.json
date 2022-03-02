@@ -23,7 +23,7 @@
     "Address": {
       "type": "component",
       "repeatable": false,
-      "component": "info.address"
+      "component": "content-blocks.address"
     },
     "NavigationItems": {
       "type": "component",

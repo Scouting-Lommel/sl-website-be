@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_navigation_navigations",
+  "collectionName": "components_general_navigations",
   "info": {
     "displayName": "Navigation",
-    "icon": "bars"
+    "icon": "arrows-alt"
   },
   "options": {},
   "attributes": {

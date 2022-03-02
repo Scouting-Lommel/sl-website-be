@@ -4,7 +4,8 @@
   "info": {
     "singularName": "general-data",
     "pluralName": "general-datas",
-    "displayName": "GeneralData"
+    "displayName": "GeneralData",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -14,10 +15,10 @@
     "GeneralData": {
       "type": "dynamiczone",
       "components": [
-        "navigation.header",
-        "navigation.footer",
-        "navigation.socials",
-        "info.address"
+        "general.footer",
+        "general.socials",
+        "content-blocks.address",
+        "general.header"
       ]
     }
   }

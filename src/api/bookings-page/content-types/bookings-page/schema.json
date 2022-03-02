@@ -14,11 +14,11 @@
     "BookingsPage": {
       "type": "dynamiczone",
       "components": [
-        "info.image-text",
-        "info.call-to-action",
-        "renting.calendar",
-        "info.text-section",
-        "info.gallery"
+        "content-blocks.image-text",
+        "content-blocks.call-to-action",
+        "content-blocks.calendar",
+        "content-blocks.text-section",
+        "content-blocks.gallery"
       ]
     }
   }

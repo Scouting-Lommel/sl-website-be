@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_info_carousel_items",
+  "collectionName": "components_content_blocks_carousel_items",
   "info": {
     "displayName": "CarouselItem",
-    "icon": "angle-right"
+    "icon": "arrow-right"
   },
   "options": {},
   "attributes": {

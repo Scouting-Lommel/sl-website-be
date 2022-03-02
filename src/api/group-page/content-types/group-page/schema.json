@@ -4,7 +4,8 @@
   "info": {
     "singularName": "group-page",
     "pluralName": "group-pages",
-    "displayName": "GroupPage"
+    "displayName": "GroupPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +15,10 @@
     "GroupPage": {
       "type": "dynamiczone",
       "components": [
-        "info.image-text",
-        "info.carousel",
-        "group.activities-section",
-        "group.file-section"
+        "content-blocks.image-text",
+        "content-blocks.activities-section",
+        "content-blocks.file-section",
+        "content-blocks.carousel"
       ]
     }
   }

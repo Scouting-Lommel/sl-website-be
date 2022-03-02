@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_info_carousels",
+  "collectionName": "components_content_blocks_carousels",
   "info": {
     "displayName": "Carousel",
-    "icon": "arrows-alt-h",
-    "description": ""
+    "icon": "arrows-alt-h"
   },
   "options": {},
   "attributes": {
@@ -17,7 +16,7 @@
       "displayName": "CarouselItem",
       "type": "component",
       "repeatable": false,
-      "component": "info.carousel-item"
+      "component": "content-blocks.carousel-item"
     }
   }
 }

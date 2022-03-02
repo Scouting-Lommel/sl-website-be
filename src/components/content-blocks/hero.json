@@ -2,7 +2,8 @@
   "collectionName": "components_info_heroes",
   "info": {
     "displayName": "Hero",
-    "icon": "ambulance"
+    "icon": "ambulance",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,11 +14,12 @@
       "type": "boolean"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Links": {
       "type": "component",

@@ -14,10 +14,10 @@
     "InfoPage": {
       "type": "dynamiczone",
       "components": [
-        "info.image-text",
-        "info.call-to-action",
-        "info.faq",
-        "renting.map"
+        "content-blocks.image-text",
+        "content-blocks.call-to-action",
+        "content-blocks.faq",
+        "content-blocks.map"
       ]
     }
   }
