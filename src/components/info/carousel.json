@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_info_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "IsSmall": {
+      "type": "boolean"
+    },
+    "Items": {
+      "displayName": "CarouselItem",
+      "type": "component",
+      "repeatable": false,
+      "component": "info.carousel-item"
+    }
+  }
+}

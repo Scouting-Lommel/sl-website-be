@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_renting_calendars",
+  "info": {
+    "displayName": "Calendar",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

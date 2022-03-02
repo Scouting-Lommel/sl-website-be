@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_info_addresses",
+  "info": {
+    "displayName": "Address",
+    "icon": "home"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    }
+  }
+}

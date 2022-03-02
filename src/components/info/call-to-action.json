@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_info_call_to_actions",
+  "info": {
+    "displayName": "CallToAction",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
+    }
+  }
+}

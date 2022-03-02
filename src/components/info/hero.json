@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_info_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "IsHomePage": {
+      "type": "boolean"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
+    }
+  }
+}

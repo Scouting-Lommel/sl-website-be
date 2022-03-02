@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_navigation_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "NavigationItems": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
+    }
+  }
+}
