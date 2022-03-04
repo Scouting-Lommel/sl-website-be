@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "register_pages",
+  "info": {
+    "singularName": "register-page",
+    "pluralName": "register-pages",
+    "displayName": "RegisterPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "RegisterPage": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.billing"
+      ]
+    }
+  }
+}
