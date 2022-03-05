@@ -24,12 +24,12 @@
     "BookingsPage": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.image-text",
-        "content-blocks.call-to-action",
         "content-blocks.calendar",
-        "content-blocks.text-section",
+        "content-blocks.call-to-action",
         "content-blocks.gallery",
-        "content-blocks.hero"
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "content-blocks.text-section"
       ]
     }
   }

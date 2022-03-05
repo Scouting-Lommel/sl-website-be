@@ -11,19 +11,12 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "Socials": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::social.social"
-    },
-    "Address": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content-blocks.address"
     },
     "NavigationItems": {
       "type": "component",
