@@ -28,8 +28,7 @@
         "content-blocks.call-to-action",
         "content-blocks.faq",
         "content-blocks.map",
-        "content-blocks.hero",
-        "general.page-info"
+        "content-blocks.hero"
       ]
     }
   }

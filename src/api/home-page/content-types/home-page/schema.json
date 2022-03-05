@@ -29,8 +29,7 @@
         "content-blocks.blog",
         "content-blocks.image-text",
         "content-blocks.gallery",
-        "content-blocks.carousel",
-        "general.page-info"
+        "content-blocks.carousel"
       ]
     }
   }

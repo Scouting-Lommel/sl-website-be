@@ -27,8 +27,7 @@
         "content-blocks.image-text",
         "content-blocks.call-to-action",
         "content-blocks.carousel",
-        "content-blocks.hero",
-        "general.page-info"
+        "content-blocks.hero"
       ]
     }
   }
