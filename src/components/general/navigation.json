@@ -2,13 +2,14 @@
   "collectionName": "components_general_navigations",
   "info": {
     "displayName": "Navigation",
-    "icon": "arrows-alt"
+    "icon": "arrows-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "NavigationItems": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "link.link"
     }
   }

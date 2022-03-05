@@ -17,6 +17,9 @@
       "type": "component",
       "repeatable": false,
       "component": "link.link"
+    },
+    "Socials": {
+      "type": "boolean"
     }
   }
 }
