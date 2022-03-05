@@ -13,6 +13,9 @@
     "IsSmall": {
       "type": "boolean"
     },
+    "IsGroupsShowcase": {
+      "type": "boolean"
+    },
     "Items": {
       "displayName": "CarouselItem",
       "type": "component",
