@@ -12,6 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "NoIndex": {
+      "type": "boolean"
+    },
     "HomePage": {
       "type": "dynamiczone",
       "components": [
@@ -22,15 +31,6 @@
         "content-blocks.gallery",
         "content-blocks.carousel"
       ]
-    },
-    "Title": {
-      "type": "string"
-    },
-    "URL": {
-      "type": "string"
-    },
-    "NoIndex": {
-      "type": "boolean"
     }
   }
 }

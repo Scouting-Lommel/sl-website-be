@@ -12,15 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "GroupsPage": {
-      "type": "dynamiczone",
-      "components": [
-        "content-blocks.image-text",
-        "content-blocks.call-to-action",
-        "content-blocks.carousel",
-        "content-blocks.hero"
-      ]
-    },
     "Title": {
       "type": "string"
     },
@@ -29,6 +20,15 @@
     },
     "NoIndex": {
       "type": "boolean"
+    },
+    "GroupsPage": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.image-text",
+        "content-blocks.call-to-action",
+        "content-blocks.carousel",
+        "content-blocks.hero"
+      ]
     }
   }
 }
