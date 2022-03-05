@@ -4,7 +4,8 @@
   "info": {
     "singularName": "bookings-page",
     "pluralName": "bookings-pages",
-    "displayName": "BookingsPage"
+    "displayName": "BookingsPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,8 +19,18 @@
         "content-blocks.call-to-action",
         "content-blocks.calendar",
         "content-blocks.text-section",
-        "content-blocks.gallery"
+        "content-blocks.gallery",
+        "content-blocks.hero"
       ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "NoIndex": {
+      "type": "boolean"
     }
   }
 }

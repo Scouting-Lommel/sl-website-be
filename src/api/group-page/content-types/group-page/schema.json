@@ -12,13 +12,64 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "GroupPage": {
+    "Kapoenen": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.image-text",
         "content-blocks.activities-section",
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "content-blocks.carousel",
+        "content-blocks.file-section"
+      ]
+    },
+    "Welpen": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
         "content-blocks.file-section",
-        "content-blocks.carousel"
+        "content-blocks.hero",
+        "content-blocks.image-text"
+      ]
+    },
+    "Jonggivers": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.image-text",
+        "content-blocks.hero"
+      ]
+    },
+    "Givers": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.hero",
+        "content-blocks.image-text"
+      ]
+    },
+    "Jin": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.image-text",
+        "content-blocks.hero"
+      ]
+    },
+    "Akabe": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.hero",
+        "content-blocks.image-text"
       ]
     }
   }

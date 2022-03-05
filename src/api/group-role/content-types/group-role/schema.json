@@ -16,10 +16,6 @@
       "type": "string",
       "required": true,
       "unique": true
-    },
-    "Description": {
-      "type": "richtext",
-      "required": true
     }
   }
 }

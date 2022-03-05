@@ -22,6 +22,15 @@
         "content-blocks.gallery",
         "content-blocks.carousel"
       ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "NoIndex": {
+      "type": "boolean"
     }
   }
 }
