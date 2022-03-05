@@ -40,12 +40,9 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
-    },
-    "group_roles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::group-role.group-role"
+      "allowedTypes": [
+        "images"
+      ]
     },
     "group": {
       "type": "relation",
@@ -54,6 +51,11 @@
     },
     "Address": {
       "type": "string"
+    },
+    "GroupRoles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::group-role.group-role"
     }
   }
 }
