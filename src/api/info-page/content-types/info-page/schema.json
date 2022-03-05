@@ -19,17 +19,9 @@
         "content-blocks.call-to-action",
         "content-blocks.faq",
         "content-blocks.map",
-        "content-blocks.hero"
+        "content-blocks.hero",
+        "general.page-info"
       ]
-    },
-    "Title": {
-      "type": "string"
-    },
-    "URL": {
-      "type": "string"
-    },
-    "NoIndex": {
-      "type": "boolean"
     }
   }
 }

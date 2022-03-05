@@ -20,17 +20,9 @@
         "content-blocks.calendar",
         "content-blocks.text-section",
         "content-blocks.gallery",
-        "content-blocks.hero"
+        "content-blocks.hero",
+        "general.page-info"
       ]
-    },
-    "Title": {
-      "type": "string"
-    },
-    "URL": {
-      "type": "string"
-    },
-    "NoIndex": {
-      "type": "boolean"
     }
   }
 }

@@ -18,17 +18,9 @@
         "content-blocks.image-text",
         "content-blocks.call-to-action",
         "content-blocks.carousel",
-        "content-blocks.hero"
+        "content-blocks.hero",
+        "general.page-info"
       ]
-    },
-    "Title": {
-      "type": "string"
-    },
-    "URL": {
-      "type": "string"
-    },
-    "NoIndex": {
-      "type": "boolean"
     }
   }
 }
