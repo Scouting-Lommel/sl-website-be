@@ -10,7 +10,10 @@
     "Title": {
       "type": "string"
     },
-    "IsSmall": {
+    "IsLeaderShowcase": {
+      "type": "boolean"
+    },
+    "IsGroupsShowcase": {
       "type": "boolean"
     },
     "Items": {
