@@ -9,14 +9,6 @@
   "attributes": {
     "Title": {
       "type": "string"
-    },
-    "Files": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "files"
-      ]
     }
   }
 }
