@@ -7,7 +7,7 @@
     "displayName": "Info"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -16,9 +16,6 @@
     },
     "Answer": {
       "type": "richtext"
-    },
-    "Published": {
-      "type": "boolean"
     }
   }
 }
