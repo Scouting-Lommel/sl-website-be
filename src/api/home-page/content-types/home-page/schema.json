@@ -12,6 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "NoIndex": {
+      "type": "boolean"
+    },
     "HomePage": {
       "type": "dynamiczone",
       "components": [

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "year-theme",
     "pluralName": "year-themes",
-    "displayName": "YearTheme"
+    "displayName": "YearTheme",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -17,15 +18,19 @@
     "Description": {
       "type": "richtext"
     },
-    "ActiveYear": {
-      "type": "date"
-    },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "StartYear": {
+      "type": "date"
+    },
+    "EndYear": {
+      "type": "date"
     }
   }
 }

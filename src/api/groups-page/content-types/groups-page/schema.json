@@ -12,12 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "NoIndex": {
+      "type": "boolean"
+    },
     "GroupsPage": {
       "type": "dynamiczone",
       "components": [
         "content-blocks.image-text",
         "content-blocks.call-to-action",
-        "content-blocks.carousel"
+        "content-blocks.carousel",
+        "content-blocks.hero"
       ]
     }
   }
