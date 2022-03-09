@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "register_pages",
+  "info": {
+    "singularName": "register-page",
+    "pluralName": "register-pages",
+    "displayName": "RegisterPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AcountNr": {
+      "type": "string"
+    },
+    "LeaderPrice": {
+      "type": "integer"
+    },
+    "ChildPrice": {
+      "type": "integer"
+    }
+  }
+}
