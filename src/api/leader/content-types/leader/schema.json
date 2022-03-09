@@ -56,6 +56,10 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::group-role.group-role"
+    },
+    "IsGroupLeader": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
