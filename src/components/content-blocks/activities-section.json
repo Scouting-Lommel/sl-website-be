@@ -10,11 +10,6 @@
     "Title": {
       "type": "string"
     },
-    "Activities": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::activity.activity"
-    },
     "Button": {
       "type": "component",
       "repeatable": false,

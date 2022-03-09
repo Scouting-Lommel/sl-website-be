@@ -4,21 +4,32 @@
   "info": {
     "singularName": "bookings-page",
     "pluralName": "bookings-pages",
-    "displayName": "BookingsPage"
+    "displayName": "BookingsPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "NoIndex": {
+      "type": "boolean"
+    },
     "BookingsPage": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.image-text",
-        "content-blocks.call-to-action",
         "content-blocks.calendar",
-        "content-blocks.text-section",
-        "content-blocks.gallery"
+        "content-blocks.call-to-action",
+        "content-blocks.gallery",
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "content-blocks.text-section"
       ]
     }
   }

@@ -14,7 +14,7 @@
       "type": "string"
     },
     "Address": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

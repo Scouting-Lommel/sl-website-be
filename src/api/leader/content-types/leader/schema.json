@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -44,11 +44,6 @@
         "images"
       ]
     },
-    "group_roles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::group-role.group-role"
-    },
     "group": {
       "type": "relation",
       "relation": "oneToOne",
@@ -56,6 +51,15 @@
     },
     "Address": {
       "type": "string"
+    },
+    "GroupRoles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::group-role.group-role"
+    },
+    "IsGroupLeader": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
