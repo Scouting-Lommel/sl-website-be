@@ -1,7 +1,7 @@
 {
   "name": "scouting-lommel-cms",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Scouting Lommel website | Strapi CMS backend",
   "scripts": {
     "develop": "strapi develop",
@@ -11,10 +11,10 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "4.1.2",
-    "@strapi/plugin-i18n": "4.1.2",
-    "@strapi/plugin-users-permissions": "4.1.2",
-    "@strapi/strapi": "4.1.2",
+    "@strapi/plugin-graphql": "4.1.7",
+    "@strapi/plugin-i18n": "4.1.7",
+    "@strapi/plugin-users-permissions": "4.1.7",
+    "@strapi/strapi": "4.1.7",
     "mysql": "^2.18.1"
   },
   "author": {
