@@ -10,9 +10,9 @@
     "Title": {
       "type": "text"
     },
-    "Info": {
+    "infos": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::info.info"
     }
   }
