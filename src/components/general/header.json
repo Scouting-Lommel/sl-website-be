@@ -15,11 +15,11 @@
         "images"
       ]
     },
-    "Navigation": {
-      "displayName": "Navigation",
+    "NavigationItems": {
+      "displayName": "NavigationItem",
       "type": "component",
-      "repeatable": false,
-      "component": "general.navigation"
+      "repeatable": true,
+      "component": "general.navigation-item"
     }
   }
 }
