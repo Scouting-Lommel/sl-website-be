@@ -4,7 +4,8 @@
   "info": {
     "singularName": "info",
     "pluralName": "infos",
-    "displayName": "Info"
+    "displayName": "QenA",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
