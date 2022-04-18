@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_general_navigation_items",
+  "info": {
+    "displayName": "NavigationItem",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Href": {
+      "type": "string"
+    },
+    "IsDropdown": {
+      "type": "boolean"
+    },
+    "DropdownComponents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
+    }
+  }
+}
