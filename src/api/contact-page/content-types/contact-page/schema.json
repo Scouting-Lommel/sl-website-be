@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "ContactPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ContactPage": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.text-section"
+      ]
+    }
+  }
+}
