@@ -15,7 +15,7 @@
     },
     "Button": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "link.link"
     },
     "Socials": {

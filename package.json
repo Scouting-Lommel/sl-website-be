@@ -1,7 +1,7 @@
 {
   "name": "scouting-lommel-cms",
   "private": true,
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Scouting Lommel website | Strapi CMS backend",
   "scripts": {
     "develop": "strapi develop",
