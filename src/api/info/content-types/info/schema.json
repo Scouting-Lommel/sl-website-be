@@ -4,10 +4,11 @@
   "info": {
     "singularName": "info",
     "pluralName": "infos",
-    "displayName": "Info"
+    "displayName": "QenA",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -16,9 +17,6 @@
     },
     "Answer": {
       "type": "richtext"
-    },
-    "Published": {
-      "type": "boolean"
     }
   }
 }

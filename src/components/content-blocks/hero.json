@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
     "IsHomePage": {
       "type": "boolean"
     },
@@ -25,6 +22,9 @@
       "type": "component",
       "repeatable": true,
       "component": "link.link"
+    },
+    "Title": {
+      "type": "richtext"
     }
   }
 }

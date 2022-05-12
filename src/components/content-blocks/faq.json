@@ -10,9 +10,9 @@
     "Title": {
       "type": "text"
     },
-    "Info": {
+    "QenAs": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::info.info"
     }
   }

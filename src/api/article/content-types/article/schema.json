@@ -4,10 +4,11 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -17,21 +18,13 @@
     "Content": {
       "type": "richtext"
     },
-    "DatePosted": {
-      "type": "date"
-    },
-    "DateEdited": {
-      "type": "date"
-    },
-    "Published": {
-      "type": "boolean"
-    },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
