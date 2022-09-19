@@ -13,4 +13,12 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  "netlify-deployments": {
+    enabled: true,
+    config: {
+      buildHook: process.env.NETLIFY_DEPLOYMENTS_PLUGIN_BUILD_HOOK,
+      accessToken: process.env.NETLIFY_DEPLOYMENTS_PLUGIN_ACCESS_TOKEN,
+      siteId: process.env.NETLIFY_DEPLOYMENTS_PLUGIN_SITE_ID,
+    },
+  },
 });
