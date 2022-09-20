@@ -21,4 +21,10 @@ module.exports = ({ env }) => ({
       siteId: process.env.NETLIFY_DEPLOYMENTS_PLUGIN_SITE_ID,
     },
   },
+  seo: {
+    enabled: true,
+  },
+  publisher: {
+    enabled: true,
+  },
 });

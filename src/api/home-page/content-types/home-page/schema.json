@@ -31,6 +31,11 @@
         "content-blocks.gallery",
         "content-blocks.carousel"
       ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }
