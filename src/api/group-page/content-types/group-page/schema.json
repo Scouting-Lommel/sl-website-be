@@ -16,11 +16,12 @@
       "type": "dynamiczone",
       "components": [
         "content-blocks.activities-section",
-        "content-blocks.hero",
-        "content-blocks.image-text",
         "content-blocks.carousel",
         "content-blocks.file-section",
-        "general.page-info"
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "general.page-info",
+        "shared.seo"
       ]
     },
     "Welpen": {
@@ -31,7 +32,8 @@
         "content-blocks.file-section",
         "content-blocks.hero",
         "content-blocks.image-text",
-        "general.page-info"
+        "general.page-info",
+        "shared.seo"
       ]
     },
     "Jonggivers": {
@@ -40,9 +42,10 @@
         "content-blocks.activities-section",
         "content-blocks.carousel",
         "content-blocks.file-section",
-        "content-blocks.image-text",
         "content-blocks.hero",
-        "general.page-info"
+        "content-blocks.image-text",
+        "general.page-info",
+        "shared.seo"
       ]
     },
     "Givers": {
@@ -53,7 +56,8 @@
         "content-blocks.file-section",
         "content-blocks.hero",
         "content-blocks.image-text",
-        "general.page-info"
+        "general.page-info",
+        "shared.seo"
       ]
     },
     "Jin": {
@@ -62,9 +66,10 @@
         "content-blocks.activities-section",
         "content-blocks.carousel",
         "content-blocks.file-section",
-        "content-blocks.image-text",
         "content-blocks.hero",
-        "general.page-info"
+        "content-blocks.image-text",
+        "general.page-info",
+        "shared.seo"
       ]
     },
     "Akabe": {
@@ -75,7 +80,8 @@
         "content-blocks.file-section",
         "content-blocks.hero",
         "content-blocks.image-text",
-        "general.page-info"
+        "general.page-info",
+        "shared.seo"
       ]
     }
   }
