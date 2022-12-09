@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_general_subject_options",
+  "info": {
+    "displayName": "SubjectOption"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "EmailAddress": {
+      "type": "string"
+    }
+  }
+}

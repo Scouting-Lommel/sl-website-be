@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_blocks_faq_blocks",
+  "info": {
+    "displayName": "FaqBlock"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "FaqItems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faq-item.faq-item"
+    },
+    "BlockProperties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.block-properties"
+    }
+  }
+}

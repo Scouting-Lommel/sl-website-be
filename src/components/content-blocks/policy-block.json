@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_content_blocks_policy_blocks",
+  "info": {
+    "displayName": "PolicyBlock"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.policy-section"
+    }
+  }
+}

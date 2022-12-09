@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_general_page_metas",
+  "info": {
+    "displayName": "PageMeta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    },
+    "PageDescription": {
+      "type": "richtext"
+    },
+    "MetaImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "MetaSocial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta-social"
+    }
+  }
+}

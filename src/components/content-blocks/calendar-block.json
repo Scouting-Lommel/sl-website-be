@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_blocks_calendar_blocks",
+  "info": {
+    "displayName": "CalendarBlock"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "BlockProperties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.block-properties"
+    },
+    "CallToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.call-to-action"
+    }
+  }
+}

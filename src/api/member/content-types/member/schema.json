@@ -39,17 +39,11 @@
     "Phone": {
       "type": "string"
     },
-    "GSM": {
-      "type": "string"
-    },
     "Email": {
       "type": "string"
     },
     "Akabe": {
       "type": "boolean"
-    },
-    "Year": {
-      "type": "string"
     },
     "Sex": {
       "type": "string"

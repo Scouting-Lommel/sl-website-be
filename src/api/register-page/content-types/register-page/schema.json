@@ -12,14 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "AcountNr": {
-      "type": "string"
-    },
-    "LeaderPrice": {
-      "type": "integer"
-    },
-    "ChildPrice": {
-      "type": "integer"
+    "PageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
     }
   }
 }

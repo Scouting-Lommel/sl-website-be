@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_general_dropdown_items",
+  "info": {
+    "displayName": "DropdownItem"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Page": {
+      "type": "enumeration",
+      "enum": [
+        "Kapoenen",
+        "Welpen",
+        "Akabe",
+        "Jonggivers",
+        "Givers",
+        "Jin"
+      ]
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

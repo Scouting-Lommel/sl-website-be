@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_general_footer_navs",
+  "info": {
+    "displayName": "FooterNav"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "NavItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.link"
+    }
+  }
+}

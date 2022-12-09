@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tarifs",
+  "info": {
+    "singularName": "tarif",
+    "pluralName": "tarifs",
+    "displayName": "Tarifs"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "MinimumPrice": {
+      "type": "decimal"
+    },
+    "DayPrice": {
+      "type": "decimal"
+    },
+    "Example": {
+      "type": "richtext"
+    }
+  }
+}

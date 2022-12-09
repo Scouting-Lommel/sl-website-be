@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_blocks_tarifs_blocks",
+  "info": {
+    "displayName": "TarifsBlock"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Tarifs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tarif.tarif"
+    },
+    "BlockProperties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.block-properties"
+    },
+    "CallToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.call-to-action"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_general_socials_ctas",
+  "info": {
+    "displayName": "SocialsCta"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

@@ -49,17 +49,14 @@
       "relation": "oneToOne",
       "target": "api::group.group"
     },
-    "Address": {
-      "type": "string"
-    },
-    "GroupRoles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::group-role.group-role"
-    },
     "IsGroupLeader": {
       "type": "boolean",
       "default": false
+    },
+    "GroupFunction": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::group-function.group-function"
     }
   }
 }
