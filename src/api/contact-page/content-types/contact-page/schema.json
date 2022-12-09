@@ -12,16 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "ContactPage": {
-      "type": "dynamiczone",
-      "components": [
-        "content-blocks.text-section"
-      ]
-    },
-    "seo": {
+    "PageMeta": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "general.page-meta"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.contact-form-block"
+      ]
     }
   }
 }

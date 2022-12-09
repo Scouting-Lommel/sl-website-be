@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "group_functions",
+  "info": {
+    "singularName": "group-function",
+    "pluralName": "group-functions",
+    "displayName": "GroupFunctions"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

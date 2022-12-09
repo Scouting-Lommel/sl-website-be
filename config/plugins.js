@@ -21,10 +21,26 @@ module.exports = ({ env }) => ({
       siteId: process.env.NETLIFY_DEPLOYMENTS_PLUGIN_SITE_ID,
     },
   },
-  seo: {
-    enabled: true,
-  },
   publisher: {
     enabled: true,
+  },
+  slugify: {
+    enabled: true,
+    config: {
+      contentTypes: {
+        article: {
+          field: "slug",
+          references: "title",
+        },
+        policy_section: {
+          field: "slug",
+          references: "title",
+        },
+        page_meta: {
+          field: "slug",
+          references: "pageTitle",
+        },
+      },
+    },
   },
 });

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_policy_sections",
+  "info": {
+    "displayName": "PolicySection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

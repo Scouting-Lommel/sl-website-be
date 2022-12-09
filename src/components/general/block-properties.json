@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_general_block_properties",
+  "info": {
+    "displayName": "BlockProperties",
+    "icon": "cogs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Variant": {
+      "type": "enumeration",
+      "enum": [
+        "Light",
+        "Dark"
+      ],
+      "default": "Light"
+    },
+    "Orientation": {
+      "type": "enumeration",
+      "enum": [
+        "Default",
+        "Reversed"
+      ],
+      "default": "Default"
+    },
+    "Slug": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

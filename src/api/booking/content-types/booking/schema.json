@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "singularName": "booking",
+    "pluralName": "bookings",
+    "displayName": "Bookings"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "GroupName": {
+      "type": "string"
+    },
+    "Start": {
+      "type": "datetime"
+    },
+    "End": {
+      "type": "datetime"
+    }
+  }
+}

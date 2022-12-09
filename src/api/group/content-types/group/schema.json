@@ -25,7 +25,7 @@
         "files"
       ]
     },
-    "Image": {
+    "Logo": {
       "type": "media",
       "multiple": false,
       "required": false,

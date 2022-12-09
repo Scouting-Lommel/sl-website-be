@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_blocks_activities_blocks",
+  "info": {
+    "displayName": "ActivitiesBlock"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "BlockProperties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.block-properties"
+    },
+    "CallToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.block-properties"
+    }
+  }
+}

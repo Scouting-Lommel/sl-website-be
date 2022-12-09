@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_items",
+  "info": {
+    "singularName": "social-item",
+    "pluralName": "social-items",
+    "displayName": "SocialItems"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

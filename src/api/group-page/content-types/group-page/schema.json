@@ -15,73 +15,67 @@
     "Kapoenen": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.activities-section",
-        "content-blocks.carousel",
-        "content-blocks.file-section",
-        "content-blocks.hero",
-        "content-blocks.image-text",
-        "general.page-info",
-        "shared.seo"
+        "content-blocks.hero-block",
+        "content-blocks.text-image-block",
+        "content-blocks.activities-block",
+        "content-blocks.leaders-block",
+        "content-blocks.files-block",
+        "general.page-meta"
       ]
     },
     "Welpen": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.activities-section",
-        "content-blocks.carousel",
-        "content-blocks.file-section",
-        "content-blocks.hero",
-        "content-blocks.image-text",
-        "general.page-info",
-        "shared.seo"
+        "content-blocks.activities-block",
+        "content-blocks.files-block",
+        "content-blocks.hero-block",
+        "content-blocks.leaders-block",
+        "content-blocks.text-image-block",
+        "general.page-meta"
       ]
     },
     "Jonggivers": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.activities-section",
-        "content-blocks.carousel",
-        "content-blocks.file-section",
-        "content-blocks.hero",
-        "content-blocks.image-text",
-        "general.page-info",
-        "shared.seo"
+        "content-blocks.activities-block",
+        "content-blocks.files-block",
+        "content-blocks.hero-block",
+        "content-blocks.leaders-block",
+        "content-blocks.text-image-block",
+        "general.page-meta"
       ]
     },
     "Givers": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.activities-section",
-        "content-blocks.carousel",
-        "content-blocks.file-section",
-        "content-blocks.hero",
-        "content-blocks.image-text",
-        "general.page-info",
-        "shared.seo"
+        "content-blocks.activities-block",
+        "content-blocks.files-block",
+        "content-blocks.leaders-block",
+        "content-blocks.hero-block",
+        "content-blocks.text-image-block",
+        "general.page-meta"
       ]
     },
     "Jin": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.activities-section",
-        "content-blocks.carousel",
-        "content-blocks.file-section",
-        "content-blocks.hero",
-        "content-blocks.image-text",
-        "general.page-info",
-        "shared.seo"
+        "content-blocks.activities-block",
+        "content-blocks.files-block",
+        "content-blocks.hero-block",
+        "content-blocks.leaders-block",
+        "content-blocks.text-image-block",
+        "general.page-meta"
       ]
     },
     "Akabe": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.activities-section",
-        "content-blocks.carousel",
-        "content-blocks.file-section",
-        "content-blocks.hero",
-        "content-blocks.image-text",
-        "general.page-info",
-        "shared.seo"
+        "content-blocks.activities-block",
+        "content-blocks.files-block",
+        "content-blocks.hero-block",
+        "content-blocks.leaders-block",
+        "content-blocks.text-image-block",
+        "general.page-meta"
       ]
     }
   }

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_content_blocks_text_image_blocks",
+  "info": {
+    "displayName": "TextImageBlock"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "Variant": {
+      "type": "enumeration",
+      "enum": ["Default", "Reversed"],
+      "default": "Default"
+    },
+    "CtaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.button"
+    },
+    "BlockProperties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.block-properties"
+    },
+    "CallToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.call-to-action"
+    }
+  }
+}

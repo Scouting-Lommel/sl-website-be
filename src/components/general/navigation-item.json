@@ -2,23 +2,41 @@
   "collectionName": "components_general_navigation_items",
   "info": {
     "displayName": "NavigationItem",
-    "icon": "check"
+    "icon": "check",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "Label": {
       "type": "string"
     },
-    "Href": {
-      "type": "string"
+    "Page": {
+      "type": "enumeration",
+      "enum": [
+        "Home",
+        "Takken",
+        "Verhuur",
+        "Info",
+        "Scoutsgazet",
+        "Inschrijven",
+        "Contact",
+        "DrugsAlcoholBeleid",
+        "PrivacyOvereenkomst",
+        "CookieOvereenkomst"
+      ]
     },
-    "IsDropdown": {
-      "type": "boolean"
+    "IsButton": {
+      "type": "boolean",
+      "default": false
     },
-    "DropdownComponents": {
+    "DropdownItems": {
+      "displayName": "DropdownItem",
       "type": "component",
       "repeatable": true,
-      "component": "link.link"
+      "component": "general.dropdown-item"
+    },
+    "Link": {
+      "type": "string"
     }
   }
 }
