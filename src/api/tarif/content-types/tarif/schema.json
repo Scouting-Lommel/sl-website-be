@@ -4,23 +4,24 @@
   "info": {
     "singularName": "tarif",
     "pluralName": "tarifs",
-    "displayName": "Tarifs"
+    "displayName": "tarifs",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "MinimumPrice": {
+    "minimumPrice": {
       "type": "decimal"
     },
-    "DayPrice": {
+    "dayPrice": {
       "type": "decimal"
     },
-    "Example": {
+    "example": {
       "type": "richtext"
     }
   }

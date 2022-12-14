@@ -4,30 +4,32 @@
   "info": {
     "singularName": "faq-item",
     "pluralName": "faq-items",
-    "displayName": "FaqItems"
+    "displayName": "faqItems",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Question": {
+    "question": {
       "type": "string"
     },
-    "Answer": {
+    "answer": {
       "type": "richtext"
     },
-    "Image": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "CallToAction": {
+    "callToAction": {
       "displayName": "Button",
       "type": "component",
       "repeatable": false,

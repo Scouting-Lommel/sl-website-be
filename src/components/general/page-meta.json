@@ -1,28 +1,29 @@
 {
   "collectionName": "components_general_page_metas",
   "info": {
-    "displayName": "PageMeta",
+    "displayName": "pageMeta",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "PageTitle": {
+    "pageTitle": {
       "type": "string"
     },
-    "PageDescription": {
+    "pageDescription": {
       "type": "richtext"
     },
-    "MetaImage": {
+    "metaImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "MetaSocial": {
+    "metaSocial": {
       "type": "component",
       "repeatable": true,
       "component": "shared.meta-social"

@@ -4,7 +4,7 @@
   "info": {
     "singularName": "groups-page",
     "pluralName": "groups-pages",
-    "displayName": "GroupsPage",
+    "displayName": "groupsPage",
     "description": ""
   },
   "options": {
@@ -12,12 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "PageMeta": {
+    "pageMeta": {
       "type": "component",
       "repeatable": false,
       "component": "general.page-meta"
     },
-    "Blocks": {
+    "blocks": {
       "type": "dynamiczone",
       "components": [
         "content-blocks.hero-block",

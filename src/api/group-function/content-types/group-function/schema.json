@@ -4,15 +4,19 @@
   "info": {
     "singularName": "group-function",
     "pluralName": "group-functions",
-    "displayName": "GroupFunctions"
+    "displayName": "groupFunctions",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

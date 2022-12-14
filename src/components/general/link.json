@@ -1,14 +1,15 @@
 {
   "collectionName": "components_general_links",
   "info": {
-    "displayName": "Link"
+    "displayName": "link",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Label": {
+    "label": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "string"
     }
   }

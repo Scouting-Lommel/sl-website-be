@@ -4,7 +4,7 @@
   "info": {
     "singularName": "leader",
     "pluralName": "leaders",
-    "displayName": "Leaders",
+    "displayName": "leaders",
     "description": ""
   },
   "options": {
@@ -12,31 +12,31 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "FirstName": {
+    "firstName": {
       "type": "string",
       "required": true
     },
-    "LastName": {
+    "lastName": {
       "type": "string",
       "required": true
     },
-    "Email": {
+    "email": {
       "type": "email",
       "required": true
     },
-    "Phone": {
+    "phone": {
       "type": "string",
       "required": true
     },
-    "Totem": {
+    "totem": {
       "type": "string"
     },
-    "Active": {
+    "active": {
       "type": "boolean",
       "default": true,
       "required": true
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -46,14 +46,15 @@
     },
     "group": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::group.group"
+      "relation": "manyToOne",
+      "target": "api::group.group",
+      "inversedBy": "leaders"
     },
-    "IsGroupLeader": {
+    "isGroupLeader": {
       "type": "boolean",
       "default": false
     },
-    "GroupFunction": {
+    "groupFunction": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::group-function.group-function"

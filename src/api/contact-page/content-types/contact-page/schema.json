@@ -4,7 +4,7 @@
   "info": {
     "singularName": "contact-page",
     "pluralName": "contact-pages",
-    "displayName": "ContactPage",
+    "displayName": "contactPage",
     "description": ""
   },
   "options": {
@@ -12,12 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "PageMeta": {
+    "pageMeta": {
       "type": "component",
       "repeatable": false,
       "component": "general.page-meta"
     },
-    "Blocks": {
+    "blocks": {
       "type": "dynamiczone",
       "components": [
         "content-blocks.contact-form-block"

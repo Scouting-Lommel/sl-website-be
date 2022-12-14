@@ -1,17 +1,18 @@
 {
   "collectionName": "components_content_blocks_map_blocks",
   "info": {
-    "displayName": "MapBlock"
+    "displayName": "mapBlock",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "RouteLink": {
+    "touteLink": {
       "type": "string"
     },
-    "BlockProperties": {
+    "blockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
