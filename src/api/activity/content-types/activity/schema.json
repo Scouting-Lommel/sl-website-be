@@ -12,13 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "startTime": {
-      "type": "datetime",
+    "startDate": {
+      "type": "date",
       "required": true
     },
-    "endTime": {
-      "type": "datetime",
-      "required": true
+    "startTime": {
+      "type": "time",
+      "required": true,
+      "default": "14:00"
     },
     "description": {
       "type": "richtext",
@@ -32,6 +33,13 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "endTime": {
+      "type": "time",
+      "default": "16:30"
     }
   }
 }
