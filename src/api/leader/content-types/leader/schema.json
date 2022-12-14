@@ -58,6 +58,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::group-function.group-function"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "leader"
     }
   }
 }
