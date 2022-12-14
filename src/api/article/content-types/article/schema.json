@@ -4,7 +4,7 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Articles",
+    "displayName": "articles",
     "description": ""
   },
   "options": {
@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Content": {
+    "content": {
       "type": "richtext"
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,

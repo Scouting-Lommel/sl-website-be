@@ -4,7 +4,7 @@
   "info": {
     "singularName": "general-data",
     "pluralName": "general-datas",
-    "displayName": "GeneralData",
+    "displayName": "generalData",
     "description": ""
   },
   "options": {
@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "SiteName": {
+    "siteName": {
       "type": "string"
     },
-    "Url": {
+    "url": {
       "type": "string"
     },
-    "Logo": {
+    "logo": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -29,35 +29,35 @@
         "audios"
       ]
     },
-    "Address": {
+    "address": {
       "type": "richtext"
     },
-    "GroupNumber": {
+    "groupNumber": {
       "type": "string"
     },
-    "VatNumber": {
+    "vatNumber": {
       "type": "string"
     },
-    "BankAccountNumber": {
+    "bankAccountNumber": {
       "type": "string"
     },
-    "ContactItems": {
+    "contactItems": {
       "displayName": "ContactItem",
       "type": "component",
       "repeatable": true,
       "component": "general.contact-item"
     },
-    "YearTheme": {
+    "yearTheme": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::year-theme.year-theme"
     },
-    "MainNavigation": {
+    "mainNavigation": {
       "type": "component",
       "repeatable": true,
       "component": "general.navigation-item"
     },
-    "FooterNavigation": {
+    "footerNavigation": {
       "type": "component",
       "repeatable": true,
       "component": "general.footer-nav"

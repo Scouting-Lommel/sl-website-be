@@ -4,28 +4,30 @@
   "info": {
     "singularName": "social-item",
     "pluralName": "social-items",
-    "displayName": "SocialItems"
+    "displayName": "socialItems",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "string"
     },
-    "Icon": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

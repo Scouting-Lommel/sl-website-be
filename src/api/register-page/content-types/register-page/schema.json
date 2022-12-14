@@ -4,7 +4,7 @@
   "info": {
     "singularName": "register-page",
     "pluralName": "register-pages",
-    "displayName": "RegisterPage",
+    "displayName": "registerPage",
     "description": ""
   },
   "options": {
@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "PageMeta": {
+    "pageMeta": {
       "type": "component",
       "repeatable": false,
       "component": "general.page-meta"

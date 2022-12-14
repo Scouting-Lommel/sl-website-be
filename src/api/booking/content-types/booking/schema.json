@@ -4,20 +4,21 @@
   "info": {
     "singularName": "booking",
     "pluralName": "bookings",
-    "displayName": "Bookings"
+    "displayName": "bookings",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "GroupName": {
+    "groupName": {
       "type": "string"
     },
-    "Start": {
+    "start": {
       "type": "datetime"
     },
-    "End": {
+    "end": {
       "type": "datetime"
     }
   }

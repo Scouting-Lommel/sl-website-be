@@ -1,11 +1,12 @@
 {
   "collectionName": "components_general_socials_ctas",
   "info": {
-    "displayName": "SocialsCta"
+    "displayName": "socialsCta",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     }
   }

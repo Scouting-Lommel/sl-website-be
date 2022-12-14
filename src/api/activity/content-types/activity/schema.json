@@ -4,7 +4,7 @@
   "info": {
     "singularName": "activity",
     "pluralName": "activities",
-    "displayName": "Activities",
+    "displayName": "activities",
     "description": ""
   },
   "options": {
@@ -12,24 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "StartTime": {
+    "startTime": {
       "type": "datetime",
       "required": true
     },
-    "EndTime": {
+    "endTime": {
       "type": "datetime",
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "richtext",
       "required": true
     },
-    "Group": {
+    "group": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::group.group"
     },
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     }

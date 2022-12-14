@@ -1,19 +1,20 @@
 {
   "collectionName": "components_content_blocks_year_theme_blocks",
   "info": {
-    "displayName": "YearThemeBlock"
+    "displayName": "yearThemeBlock",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "BlockProperties": {
+    "blockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "CallToAction": {
+    "callToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"

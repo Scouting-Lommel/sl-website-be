@@ -1,14 +1,15 @@
 {
   "collectionName": "components_content_blocks_policy_blocks",
   "info": {
-    "displayName": "PolicyBlock"
+    "displayName": "policyBlock",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Sections": {
+    "sections": {
       "type": "component",
       "repeatable": true,
       "component": "general.policy-section"

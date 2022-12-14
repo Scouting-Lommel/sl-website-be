@@ -4,19 +4,20 @@
   "info": {
     "singularName": "drugs-alcohol-policy-page",
     "pluralName": "drugs-alcohol-policy-pages",
-    "displayName": "DrugsAlcoholPolicyPage"
+    "displayName": "drugsAlcoholPolicyPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "PageMeta": {
+    "pageMeta": {
       "type": "component",
       "repeatable": false,
       "component": "general.page-meta"
     },
-    "Blocks": {
+    "blocks": {
       "type": "dynamiczone",
       "components": [
         "content-blocks.hero-block",

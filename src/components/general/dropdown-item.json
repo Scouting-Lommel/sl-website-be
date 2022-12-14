@@ -1,25 +1,26 @@
 {
   "collectionName": "components_general_dropdown_items",
   "info": {
-    "displayName": "DropdownItem"
+    "displayName": "dropdownItem",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Label": {
+    "label": {
       "type": "string"
     },
-    "Page": {
+    "page": {
       "type": "enumeration",
       "enum": [
-        "Kapoenen",
-        "Welpen",
-        "Akabe",
-        "Jonggivers",
-        "Givers",
-        "Jin"
+        "kapoenen",
+        "welpen",
+        "akabe",
+        "jonggivers",
+        "givers",
+        "jin"
       ]
     },
-    "Link": {
+    "link": {
       "type": "string"
     }
   }

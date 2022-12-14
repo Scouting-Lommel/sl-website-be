@@ -1,19 +1,20 @@
 {
   "collectionName": "components_content_blocks_articles_blocks",
   "info": {
-    "displayName": "ArticlesBlock"
+    "displayName": "articlesBlock",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "BlockProperties": {
+    "blockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "CallToAction": {
+    "callToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"

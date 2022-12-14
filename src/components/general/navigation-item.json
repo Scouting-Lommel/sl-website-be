@@ -1,16 +1,16 @@
 {
   "collectionName": "components_general_navigation_items",
   "info": {
-    "displayName": "NavigationItem",
+    "displayName": "navigationItem",
     "icon": "check",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Label": {
+    "label": {
       "type": "string"
     },
-    "Page": {
+    "page": {
       "type": "enumeration",
       "enum": [
         "Home",
@@ -25,17 +25,17 @@
         "CookieOvereenkomst"
       ]
     },
-    "IsButton": {
+    "isButton": {
       "type": "boolean",
       "default": false
     },
-    "DropdownItems": {
+    "dropdownItems": {
       "displayName": "DropdownItem",
       "type": "component",
       "repeatable": true,
       "component": "general.dropdown-item"
     },
-    "Link": {
+    "link": {
       "type": "string"
     }
   }

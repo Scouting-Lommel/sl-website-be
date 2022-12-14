@@ -1,22 +1,24 @@
 {
   "collectionName": "components_general_buttons",
   "info": {
-    "displayName": "Button"
+    "displayName": "button",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Label": {
+    "label": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "string"
     },
-    "Variant": {
+    "variant": {
       "type": "enumeration",
       "enum": [
-        "Dark",
-        "Light"
-      ]
+        "dark",
+        "light"
+      ],
+      "default": "dark"
     }
   }
 }

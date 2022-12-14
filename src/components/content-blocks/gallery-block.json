@@ -1,33 +1,35 @@
 {
   "collectionName": "components_content_blocks_gallery_blocks",
   "info": {
-    "displayName": "GalleryBlock"
+    "displayName": "galleryBlock",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "InitialItems": {
+    "initialItems": {
       "type": "integer",
       "default": 6
     },
-    "Images": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
-    "BlockProperties": {
+    "blockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "CallToAction": {
+    "callToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"

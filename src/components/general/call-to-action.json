@@ -1,21 +1,21 @@
 {
   "collectionName": "components_general_call_to_actions",
   "info": {
-    "displayName": "CallToAction",
+    "displayName": "callToAction",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Intro": {
+    "intro": {
       "type": "richtext"
     },
-    "CtaLabel": {
+    "ctaLabel": {
       "type": "string"
     },
-    "CtaLink": {
+    "ctaLink": {
       "type": "string"
     }
   }
