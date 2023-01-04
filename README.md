@@ -16,7 +16,7 @@
 ## Requirements
 
 - [Node.js](https://nodejs.org) (v16.x)
-- [NPM](https://npmjs.com) (and up v6)
+- [NPM](https://npmjs.com) (v6 and up)
 - [MySQL](https://www.mysql.com) database (hosted, local or [Docker](https://www.docker.com/))
 
 ## Installation
