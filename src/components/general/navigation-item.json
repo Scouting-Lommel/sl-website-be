@@ -13,16 +13,16 @@
     "page": {
       "type": "enumeration",
       "enum": [
-        "Home",
-        "Takken",
-        "Verhuur",
-        "Info",
-        "Scoutsgazet",
-        "Inschrijven",
-        "Contact",
-        "DrugsAlcoholBeleid",
-        "PrivacyOvereenkomst",
-        "CookieOvereenkomst"
+        "home",
+        "takken",
+        "verhuur",
+        "info",
+        "scoutsgazet",
+        "inschrijven",
+        "contact",
+        "drugs-alcohol-beleid",
+        "privacy-overeenkomst",
+        "cookie-overeenkomst"
       ]
     },
     "isButton": {

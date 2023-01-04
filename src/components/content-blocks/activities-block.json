@@ -18,6 +18,9 @@
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
+    },
+    "initialItems": {
+      "type": "integer"
     }
   }
 }
