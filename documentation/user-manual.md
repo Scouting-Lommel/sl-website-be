@@ -5,7 +5,7 @@ TODO: complete user manual
 ## Table of contents
 
 - [Strapi](#strapi)
-- [Using the admin panel](#using-the-admin panel)
+- [Using the admin panel](#using-the-admin-panel)
   - [Structure](#structure)
   - [General principles](#general-principles)
   - [Media](#media)
