@@ -6,6 +6,8 @@
 - [Installation](#installation)
 - [Running locally](#running-locally)
 - [Building the project](#building-the-project)
+  - [Local build](#local-build)
+  - [Production build](#production-build)
 - [Development](#development)
   - [Trunk-based development](#trunk-based-development)
 - [Endpoints](#endpoints)
@@ -47,9 +49,11 @@
    npm run develop
    ```
 
-3. Visit can now the CMS frontend on [port 1337](http://localhost:1337)
+3. You can now visit the CMS admin panel on [port 1337](http://localhost:1337)
 
 ## Building the project
+
+### Local build
 
 1. [Clone and install](#installation) this repo
 2. Produce a production build using `npm`
@@ -58,11 +62,17 @@
    npm run build
    ```
 
+### Production build
+
+It is not necessary to build for production manually. A CI/CD pipeline has been set up for automatic deployment when pushing changes and/or features to the `main` branch.
+
+For more info, check out the [deployment docs](/documentation/deployment.md).
+
 ## Development
 
 ### Trunk based development
 
-Instead of the traditional git-flow, this project is based on the [trun based development](https://trunkbaseddevelopment.com/) principle.
+Instead of the traditional git-flow, this project is based on the [trunk based development](https://trunkbaseddevelopment.com/) principle.
 
 > Trunk based development: a source-control branching model, where developers collaborate on code in a single branch called ‘trunk’, resist any pressure to create other long-lived development branches by employing documented techniques. They therefore avoid merge hell, do not break the build, and live happily ever after.
 
