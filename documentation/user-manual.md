@@ -20,9 +20,9 @@ TODO: complete user manual
 
 ### Structure
 
-![Website ERD](/documentation/assets/relationship-diagram.jpg)
-
 > ⚠️ This diagram is not up to date
+
+![Website ERD](/documentation/assets/relationship-diagram.jpg)
 
 #### Components
 
