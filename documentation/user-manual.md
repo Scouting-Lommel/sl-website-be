@@ -22,6 +22,8 @@ TODO: complete user manual
 
 ![Website ERD](/documentation/assets/relationship-diagram.jpg)
 
+> ⚠️ This diagram is not up to date
+
 #### Components
 
 ##### Content blocks

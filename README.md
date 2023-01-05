@@ -1,6 +1,6 @@
 # Scouting Lommel Backend
 
-Backend to the new and refreshed [Scouting Lommel website](https://scoutinglommel.be).
+Backend to the new and refreshed [Scouting Lommel website](https://www.scoutinglommel.be).
 
 ## Table of contents
 
@@ -12,7 +12,7 @@ Backend to the new and refreshed [Scouting Lommel website](https://scoutinglomme
 
 ## Tech stack
 
-- [Strapi](https://strapi.io) instance (= headless CMS)
+- [Strapi](https://www.strapi.io) instance (= headless CMS)
 - [MySQL](https://www.mysql.com) database
 - [E-mail provider](/documentation/e-mail-setup.md) (to be determined)
 
@@ -28,7 +28,7 @@ Don't understand a word or term? Look it up in the [glossary](/documentation/glo
 npm install
 ```
 
-For detailed instructions and requirements, check out the [installation guide](/documentation/installation-guide.md).
+For detailed instructions and requirements, check out the [getting started docs](/documentation/getting-started.md).
 
 ## Running locally
 
@@ -36,13 +36,15 @@ For detailed instructions and requirements, check out the [installation guide](/
 npm run develop
 ```
 
-For detailed instructions, check out the [installation guide](/documentation/installation-guide.md#running-locally).
+For detailed instructions, check out the [getting started docs](/documentation/getting-started.md#running-locally).
 
 ## Deployment
 
-| Service  | Hosting provider               |
-| -------- | ------------------------------ |
-| Frontend | [Netlify](https://netlify.app) |
-| Backend  | [Railway](https://railway.app) |
+| Resource       | Provider                                                 | Comments                                                  |
+| :------------- | :------------------------------------------------------- | :-------------------------------------------------------- |
+| DNS            | [Cloudflare](https://www.cloudflare.com/) DNS management | DNS management with Cloudflare routing & DDoS protection. |
+| Frontend app   | Hosting on [Netlify](https://www.netlify.app)            | Dynamic hosting with CI/CD capabilities for FE app.       |
+| Backend CMS    | Hosting on [Railway](https://www.railway.app)            | Dynamic hosting with CI/CD capabilities for BE CMS.       |
+| Error tracking | [Sentry](https://www.sentry.com)                         | Error tracking in a Sentry dashboard.                     |
 
 For a detailed view and instructions, check out the [deployment docs](/documentation/deployment.md).
