@@ -21,7 +21,7 @@
 1. Clone this repo using onto your machine and navigate to the local repo
 
    ```bash
-   git clone
+   git clone https://github.com/Scouting-Lommel/sl-website-be.git
    cd sl-website-be
    ```
 
