@@ -25,6 +25,18 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "pageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "pageTitle"
+    },
+    "pageTitle": {
+      "type": "string"
     }
   }
 }
