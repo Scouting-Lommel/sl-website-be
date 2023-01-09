@@ -16,6 +16,12 @@
       "type": "component",
       "repeatable": false,
       "component": "general.page-meta"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.hero-block"
+      ]
     }
   }
 }
