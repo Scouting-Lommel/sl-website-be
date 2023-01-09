@@ -47,7 +47,7 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "name"
+      "targetField": "pageTitle"
     },
     "blocks": {
       "type": "dynamiczone",
@@ -56,9 +56,16 @@
         "content-blocks.text-image-block",
         "content-blocks.activities-block",
         "content-blocks.leaders-block",
-        "content-blocks.files-block",
-        "general.page-meta"
+        "content-blocks.files-block"
       ]
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
     }
   }
 }
