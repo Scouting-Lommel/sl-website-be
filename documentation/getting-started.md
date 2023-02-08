@@ -14,8 +14,9 @@
 
 ## Requirements
 
-- [Node.js](https://nodejs.org) (v16.x)
+- [Node.js](https://nodejs.org) (v18.14.0)
 - [NPM](https://npmjs.com) (v6 and up)
+- [NVM](https://github.com/nvm-sh/nvm) (optional but recommended)
 - [MySQL](https://www.mysql.com) database (hosted, local or [Docker](https://www.docker.com/))
 
 ## Installation
@@ -34,7 +35,14 @@
    ```
 
 3. Fill in `.env`. For environment values, contact repo owner.
-4. Install dependencies
+
+4. Set the `Node.js` version (optional but recommended)
+
+   ```bash
+   nvm use
+   ```
+
+5. Install dependencies
 
    ```bash
    npm install
