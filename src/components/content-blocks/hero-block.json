@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "subtitle": {
       "type": "string"
     },
@@ -47,6 +44,9 @@
         "videos",
         "audios"
       ]
+    },
+    "title": {
+      "type": "richtext"
     }
   }
 }
