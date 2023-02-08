@@ -66,6 +66,9 @@
       "type": "component",
       "repeatable": false,
       "component": "general.page-meta"
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }
