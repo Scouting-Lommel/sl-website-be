@@ -37,6 +37,19 @@
     },
     "link": {
       "type": "string"
+    },
+    "dropdownCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.call-to-action"
+    },
+    "dropdownTitle": {
+      "type": "string"
+    },
+    "dropdownButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.button"
     }
   }
 }
