@@ -16,13 +16,13 @@
         "home",
         "takken",
         "verhuur",
-        "info",
+        "algemene_informatie",
         "scoutsgazet",
         "inschrijven",
         "contact",
-        "drugs-alcohol-beleid",
-        "privacy-overeenkomst",
-        "cookie-overeenkomst"
+        "drugs_alcohol_beleid",
+        "privacy_overeenkomst",
+        "cookie_overeenkomst"
       ]
     },
     "isButton": {
