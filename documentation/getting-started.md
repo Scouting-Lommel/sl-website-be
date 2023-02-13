@@ -21,7 +21,7 @@
 
 ## Installation
 
-1. Clone this repo using onto your machine and navigate to the local repo
+1. Clone this repo onto your machine and navigate to the local repo
 
    ```bash
    git clone https://github.com/Scouting-Lommel/sl-website-be.git
@@ -57,7 +57,7 @@
    npm run develop
    ```
 
-3. You can now visit the CMS admin panel on [port 1337](http://localhost:1337)
+3. You can now visit the CMS admin panel on [port 1337](http://localhost:1337).
 
 ## Building the project
 
@@ -80,14 +80,14 @@ For more info, check out the [deployment docs](/documentation/deployment.md).
 
 ### Trunk based development
 
-Instead of the traditional git-flow, this project is based on the [trunk based development](https://trunkbaseddevelopment.com/) principle.
-
 > Trunk based development: a source-control branching model, where developers collaborate on code in a single branch called ‘trunk’, resist any pressure to create other long-lived development branches by employing documented techniques. They therefore avoid merge hell, do not break the build, and live happily ever after.
+
+Instead of the traditional git-flow, this project is based on the [trunk based development](https://trunkbaseddevelopment.com/) principle.
 
 ## Endpoints
 
 | Name                   | Description                                    | Endpoint                                                       |
 | :--------------------- | :--------------------------------------------- | :------------------------------------------------------------- |
 | Frontend (production)  | Production environment for the public website  | [phantomdev.be](https://www.phantomdev.be) (to be changed)     |
-| Frontend (development) | Development environment for the public website | [dev.phantomdev.be](https://dev.phantomdev.be) (to be changed) |
+| Frontend (development) | Development environment for the public website | [development.phantomdev.be](https://development.phantomdev.be) (to be changed) |
 | CMS                    | CMS admin panel                                | [cms.phantomdev.be](https://cms.phantomdev.be) (to be changed) |
