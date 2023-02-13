@@ -31,6 +31,9 @@
     },
     "endYear": {
       "type": "date"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
