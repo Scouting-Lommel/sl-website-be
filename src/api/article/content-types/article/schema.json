@@ -37,6 +37,11 @@
     },
     "pageTitle": {
       "type": "string"
+    },
+    "callsToAction": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.call-to-action"
     }
   }
 }
