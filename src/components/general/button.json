@@ -15,10 +15,10 @@
     "variant": {
       "type": "enumeration",
       "enum": [
-        "dark",
+        "primary",
         "light"
       ],
-      "default": "dark"
+      "default": "primary"
     }
   }
 }
