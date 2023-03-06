@@ -4,6 +4,7 @@
   "version": "0.1.16",
   "description": "Scouting Lommel website | Strapi CMS backend",
   "scripts": {
+    "preinstall": "npx only-allow npm",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
