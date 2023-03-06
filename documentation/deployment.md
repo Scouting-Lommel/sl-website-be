@@ -16,7 +16,7 @@ TODO: write deployment manual
 
 | Resource       | Provider                                                  | Comments                                                                         |
 | :------------- | :-------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| DNS            | [Cloudflare](https://www.cloudflare.com/) DNS management  | DNS management with Cloudflare routing & DDoS protection.                        |
+| DNS            | [Netlify](https://netlify.app/) DNS management            | DNS management with Netlify routing & DDoS protection.                           |
 | Frontend app   | Hosting on [Netlify](https://www.netlify.app)             | Dynamic hosting with CI/CD capabilities for FE app.                              |
 | Backend CMS    | Hosting on [Railway](https://www.railway.app)             | Dynamic hosting with CI/CD capabilities for BE CMS.                              |
 | Database       | MySQL database hosted on [Vimexx](https://www.vimexx.be/) | Both the development and production environments have a separate MySQL database. |
@@ -25,7 +25,7 @@ TODO: write deployment manual
 
 ### DNS
 
-DNS records are managed in a [Cloudflare](https://www.cloudflare.com/) dashboard. Cloudflare also offers a layer of securities like DDoS protection.
+DNS records are managed by [Netlify](https://www.netlify.com/). Netlify also offers a layer of securities like DDoS protection.
 
 ### Frontend hosting
 
