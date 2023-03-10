@@ -45,6 +45,10 @@
       "target": "api::leader.leader",
       "mappedBy": "group"
     },
+    "slug": {
+      "type": "uid",
+      "targetField": "pageTitle"
+    },
     "blocks": {
       "type": "dynamiczone",
       "components": [

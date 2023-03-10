@@ -4,8 +4,7 @@
   "info": {
     "singularName": "rental-location",
     "pluralName": "rental-locations",
-    "displayName": "rentalLocation",
-    "description": ""
+    "displayName": "rentalLocation"
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +19,10 @@
     },
     "pageTitle": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "pageTitle"
     },
     "pageMeta": {
       "type": "component",
