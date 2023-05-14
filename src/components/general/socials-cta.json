@@ -8,6 +8,11 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "social_items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::social-item.social-item"
     }
   }
 }
