@@ -9,7 +9,7 @@
     "title": {
       "type": "string"
     },
-    "social_items": {
+    "socialItems": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::social-item.social-item"
