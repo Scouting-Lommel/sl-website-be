@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_general_inputs",
+  "info": {
+    "displayName": "Input",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "button",
+        "checkbox",
+        "color",
+        "date",
+        "datetime-local",
+        "email",
+        "file",
+        "hidden",
+        "image",
+        "month",
+        "number",
+        "password",
+        "radio",
+        "range",
+        "reset",
+        "search",
+        "submit",
+        "tel",
+        "text",
+        "time",
+        "url",
+        "week"
+      ],
+      "required": true
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "options": {
+      "type": "json"
+    }
+  }
+}
