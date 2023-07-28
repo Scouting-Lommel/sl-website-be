@@ -26,14 +26,11 @@
         "password",
         "radio",
         "range",
-        "reset",
-        "search",
         "submit",
         "tel",
         "text",
         "time",
-        "url",
-        "week"
+        "wysiwyg"
       ],
       "required": true
     },
