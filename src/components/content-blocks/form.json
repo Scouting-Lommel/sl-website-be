@@ -1,20 +1,43 @@
 {
   "collectionName": "components_content_blocks_forms",
   "info": {
-    "displayName": "Form"
+    "displayName": "Form",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "redirect": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "action": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "inputs": {
       "type": "component",
       "repeatable": true,
       "component": "general.input"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ]
+    },
+    "orientation": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "reversed"
+      ]
+    },
+    "modSmallPadding": {
+      "type": "boolean"
+    },
+    "modMargin": {
+      "type": "boolean"
     }
   }
 }
