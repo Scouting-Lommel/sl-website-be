@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "type": {
       "type": "enumeration",
       "enum": [
@@ -19,8 +16,6 @@
         "datetime-local",
         "email",
         "file",
-        "hidden",
-        "image",
         "month",
         "number",
         "password",
@@ -34,14 +29,19 @@
       ],
       "required": true
     },
-    "placeholder": {
-      "type": "string"
-    },
     "required": {
       "type": "boolean"
     },
     "options": {
       "type": "json"
+    },
+    "uid": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
     }
   }
 }
