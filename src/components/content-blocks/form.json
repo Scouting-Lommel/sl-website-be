@@ -38,6 +38,9 @@
     },
     "modMargin": {
       "type": "boolean"
+    },
+    "formattedResponseMessage": {
+      "type": "richtext"
     }
   }
 }
