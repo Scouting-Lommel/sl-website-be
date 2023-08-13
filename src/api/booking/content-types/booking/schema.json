@@ -12,14 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "groupName": {
+    "title": {
       "type": "string"
     },
     "start": {
-      "type": "datetime"
+      "type": "date"
     },
     "end": {
-      "type": "datetime"
+      "type": "date"
+    },
+    "rental_location": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::rental-location.rental-location"
     }
   }
 }
