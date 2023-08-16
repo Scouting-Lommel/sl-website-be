@@ -21,10 +21,10 @@
       "type": "dynamiczone",
       "components": [
         "content-blocks.faq-block",
-        "content-blocks.map-block",
         "content-blocks.year-theme-block",
         "content-blocks.text-image-block",
-        "content-blocks.hero-block"
+        "content-blocks.hero-block",
+        "content-blocks.map-block"
       ]
     }
   }
