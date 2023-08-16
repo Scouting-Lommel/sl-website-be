@@ -9,7 +9,7 @@
     "title": {
       "type": "string"
     },
-    "touteLink": {
+    "location": {
       "type": "string"
     },
     "blockProperties": {
