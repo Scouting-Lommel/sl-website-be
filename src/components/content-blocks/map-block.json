@@ -16,6 +16,9 @@
     },
     "location": {
       "type": "string"
+    },
+    "info": {
+      "type": "string"
     }
   }
 }
