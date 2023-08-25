@@ -20,17 +20,6 @@
       "type": "string",
       "required": true
     },
-    "email": {
-      "type": "email",
-      "required": true
-    },
-    "phone": {
-      "type": "string",
-      "required": true
-    },
-    "totem": {
-      "type": "string"
-    },
     "active": {
       "type": "boolean",
       "default": true,
