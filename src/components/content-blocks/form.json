@@ -6,41 +6,14 @@
   },
   "options": {},
   "attributes": {
-    "redirect": {
-      "type": "string",
-      "required": true
+    "bankAccount": {
+      "type": "string"
     },
-    "action": {
-      "type": "string",
-      "required": true
+    "leaderPrice": {
+      "type": "decimal"
     },
-    "inputs": {
-      "type": "component",
-      "repeatable": true,
-      "component": "general.input"
-    },
-    "variant": {
-      "type": "enumeration",
-      "enum": [
-        "light",
-        "dark"
-      ]
-    },
-    "orientation": {
-      "type": "enumeration",
-      "enum": [
-        "default",
-        "reversed"
-      ]
-    },
-    "modSmallPadding": {
-      "type": "boolean"
-    },
-    "modMargin": {
-      "type": "boolean"
-    },
-    "formattedResponseMessage": {
-      "type": "richtext"
+    "childPrice": {
+      "type": "decimal"
     }
   }
 }
