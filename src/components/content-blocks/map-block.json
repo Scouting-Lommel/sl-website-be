@@ -13,12 +13,6 @@
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
-    },
-    "location": {
-      "type": "string"
-    },
-    "info": {
-      "type": "string"
     }
   }
 }
