@@ -35,11 +35,13 @@
       "required": true
     },
     "endDate": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "endTime": {
       "type": "time",
-      "default": "16:30"
+      "default": "16:30",
+      "required": true
     }
   }
 }
