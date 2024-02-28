@@ -876,8 +876,8 @@ export interface ApiActivityActivity extends Schema.CollectionType {
       'api::group.group'
     >;
     title: Attribute.String & Attribute.Required;
-    endDate: Attribute.Date;
-    endTime: Attribute.Time & Attribute.DefaultTo<'16:30'>;
+    endDate: Attribute.Date & Attribute.Required;
+    endTime: Attribute.Time & Attribute.Required & Attribute.DefaultTo<'16:30'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
