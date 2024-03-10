@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_link_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "project-diagram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "IsButton": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "Page": {
+      "type": "string"
+    }
+  }
+}

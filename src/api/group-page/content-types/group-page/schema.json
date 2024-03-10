@@ -1,0 +1,88 @@
+{
+  "kind": "singleType",
+  "collectionName": "group_pages",
+  "info": {
+    "singularName": "group-page",
+    "pluralName": "group-pages",
+    "displayName": "GroupPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Kapoenen": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "general.page-info",
+        "shared.seo"
+      ]
+    },
+    "Welpen": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "general.page-info",
+        "shared.seo"
+      ]
+    },
+    "Jonggivers": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "general.page-info",
+        "shared.seo"
+      ]
+    },
+    "Givers": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "general.page-info",
+        "shared.seo"
+      ]
+    },
+    "Jin": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "general.page-info",
+        "shared.seo"
+      ]
+    },
+    "Akabe": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.activities-section",
+        "content-blocks.carousel",
+        "content-blocks.file-section",
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "general.page-info",
+        "shared.seo"
+      ]
+    }
+  }
+}

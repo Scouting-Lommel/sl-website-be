@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_info_image_texts",
+  "info": {
+    "displayName": "ImageText",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ImageLeftAligned": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

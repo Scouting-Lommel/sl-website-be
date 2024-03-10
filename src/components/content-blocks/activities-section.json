@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_group_activities_sections",
+  "info": {
+    "displayName": "ActivitiesSection",
+    "icon": "basketball-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
+    }
+  }
+}

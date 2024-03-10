@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "bookings_pages",
+  "info": {
+    "singularName": "bookings-page",
+    "pluralName": "bookings-pages",
+    "displayName": "BookingsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "NoIndex": {
+      "type": "boolean"
+    },
+    "BookingsPage": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.calendar",
+        "content-blocks.call-to-action",
+        "content-blocks.gallery",
+        "content-blocks.hero",
+        "content-blocks.image-text",
+        "content-blocks.text-section"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

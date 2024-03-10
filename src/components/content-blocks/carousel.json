@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_content_blocks_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "IsLeaderShowcase": {
+      "type": "boolean"
+    },
+    "IsGroupsShowcase": {
+      "type": "boolean"
+    },
+    "Items": {
+      "displayName": "CarouselItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "content-blocks.carousel-item"
+    }
+  }
+}

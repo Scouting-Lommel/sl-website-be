@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "group_roles",
+  "info": {
+    "singularName": "group-role",
+    "pluralName": "group-roles",
+    "displayName": "GroupRole"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "groups_pages",
+  "info": {
+    "singularName": "groups-page",
+    "pluralName": "groups-pages",
+    "displayName": "GroupsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "NoIndex": {
+      "type": "boolean"
+    },
+    "GroupsPage": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.image-text",
+        "content-blocks.call-to-action",
+        "content-blocks.carousel",
+        "content-blocks.hero"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
