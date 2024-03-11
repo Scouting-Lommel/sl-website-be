@@ -1,0 +1,31 @@
+name: Deploy to Heroku on Release
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build
+        run: npm install
+
+      - name: Set Node.js version
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Install Heroku CLI
+        run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+
+      - name: Deploy to Heroku
+        env:
+          HEROKU_API_KEY: ${{secrets.HEROKU_API_KEY}}
+        run: |
+          git remote add heroku https://git.heroku.com/cms-scoutinglommel.git
+          git push heroku HEAD:master
