@@ -25,8 +25,8 @@ jobs:
 
       - name: Deploy to Heroku
         env:
-          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-          HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }}
+          HEROKU_API_KEY: ${{secrets.HEROKU_API_KEY}}
+          HEROKU_EMAIL: ${{secrets.HEROKU_EMAIL}}
         run: |
           git config --global user.email "${HEROKU_EMAIL}"
           git config --global user.name "Heroku Deploy"
@@ -36,4 +36,4 @@ jobs:
           chmod +x askpass.sh
 
           # Set GIT_ASKPASS to the path of the script and push to Heroku
-          GIT_ASKPASS=$PWD/askpass.sh git push https://git.heroku.com/cms-scoutinglommel.git HEAD:master
+          GIT_ASKPASS=$PWD/askpass.sh git push https://git.heroku.com/cms-scoutinglommel.git HEAD:main
