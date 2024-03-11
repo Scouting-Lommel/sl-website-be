@@ -35,5 +35,5 @@ jobs:
           echo 'echo $HEROKU_API_KEY' > askpass.sh
           chmod +x askpass.sh
 
-          # Set GIT_ASKPASS to the path of the script and push to Heroku
-          GIT_ASKPASS=$PWD/askpass.sh git push https://git.heroku.com/cms-scoutinglommel.git HEAD:main
+          # Set GIT_ASKPASS to the path of the script and force push to Heroku
+          GIT_ASKPASS=$PWD/askpass.sh git push --force https://git.heroku.com/cms-scoutinglommel.git HEAD:main
