@@ -31,6 +31,9 @@ jobs:
           git config --global user.email "${HEROKU_EMAIL}"
           git config --global user.name "Heroku Deploy"
 
+          # Unshallow repository to fetch full history
+          git fetch --unshallow
+
           # Create a script for GIT_ASKPASS that always outputs the HEROKU_API_KEY
           echo 'echo $HEROKU_API_KEY' > askpass.sh
           chmod +x askpass.sh
