@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_items",
+  "info": {
+    "singularName": "social-item",
+    "pluralName": "social-items",
+    "displayName": "socialItems",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "tiktok",
+        "facebook",
+        "instagram"
+      ]
+    }
+  }
+}

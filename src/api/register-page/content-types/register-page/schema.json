@@ -4,7 +4,7 @@
   "info": {
     "singularName": "register-page",
     "pluralName": "register-pages",
-    "displayName": "RegisterPage",
+    "displayName": "registerPage",
     "description": ""
   },
   "options": {
@@ -12,14 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "AcountNr": {
-      "type": "string"
+    "pageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
     },
-    "LeaderPrice": {
-      "type": "integer"
-    },
-    "ChildPrice": {
-      "type": "integer"
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.hero-block",
+        "content-blocks.form"
+      ]
     }
   }
 }

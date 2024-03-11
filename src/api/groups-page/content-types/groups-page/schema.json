@@ -4,7 +4,7 @@
   "info": {
     "singularName": "groups-page",
     "pluralName": "groups-pages",
-    "displayName": "GroupsPage",
+    "displayName": "groupsPage",
     "description": ""
   },
   "options": {
@@ -12,28 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "URL": {
-      "type": "string"
-    },
-    "NoIndex": {
-      "type": "boolean"
-    },
-    "GroupsPage": {
-      "type": "dynamiczone",
-      "components": [
-        "content-blocks.image-text",
-        "content-blocks.call-to-action",
-        "content-blocks.carousel",
-        "content-blocks.hero"
-      ]
-    },
-    "seo": {
+    "pageMeta": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "general.page-meta"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.hero-block",
+        "content-blocks.text-image-block",
+        "content-blocks.groups-block"
+      ]
     }
   }
 }

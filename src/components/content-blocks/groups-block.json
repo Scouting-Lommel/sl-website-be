@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_content_blocks_groups_blocks",
+  "info": {
+    "displayName": "groupsBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "groups": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::group.group"
+    },
+    "blockProperties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.block-properties"
+    },
+    "callToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.call-to-action"
+    }
+  }
+}

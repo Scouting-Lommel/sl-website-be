@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "articles_pages",
+  "info": {
+    "singularName": "articles-page",
+    "pluralName": "articles-pages",
+    "displayName": "articlesPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.hero-block"
+      ]
+    }
+  }
+}

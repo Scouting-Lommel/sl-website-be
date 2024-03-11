@@ -4,7 +4,7 @@
   "info": {
     "singularName": "contact-page",
     "pluralName": "contact-pages",
-    "displayName": "ContactPage",
+    "displayName": "contactPage",
     "description": ""
   },
   "options": {
@@ -12,16 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "ContactPage": {
-      "type": "dynamiczone",
-      "components": [
-        "content-blocks.text-section"
-      ]
-    },
-    "seo": {
+    "pageMeta": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "general.page-meta"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.contact-form-block",
+        "content-blocks.hero-block"
+      ]
     }
   }
 }

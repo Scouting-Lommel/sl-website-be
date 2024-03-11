@@ -4,7 +4,7 @@
   "info": {
     "singularName": "general-data",
     "pluralName": "general-datas",
-    "displayName": "GeneralData",
+    "displayName": "generalData",
     "description": ""
   },
   "options": {
@@ -12,14 +12,74 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "GeneralData": {
-      "type": "dynamiczone",
-      "components": [
-        "general.footer",
-        "general.socials",
-        "content-blocks.address",
-        "general.header"
+    "siteName": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
       ]
+    },
+    "address": {
+      "type": "richtext"
+    },
+    "groupNumber": {
+      "type": "string"
+    },
+    "vatNumber": {
+      "type": "string"
+    },
+    "bankAccountNumber": {
+      "type": "string"
+    },
+    "contactItems": {
+      "displayName": "ContactItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "general.contact-item"
+    },
+    "yearTheme": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::year-theme.year-theme"
+    },
+    "mainNavigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.navigation-item"
+    },
+    "footerNavigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.footer-nav"
+    },
+    "siteDescription": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "socials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::social-item.social-item"
     }
   }
 }

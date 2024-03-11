@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_content_blocks_hero_blocks",
+  "info": {
+    "displayName": "heroBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "callToAction": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.button"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "large",
+        "simple"
+      ],
+      "default": "default"
+    },
+    "socialsCta": {
+      "displayName": "SocialsCta",
+      "type": "component",
+      "repeatable": false,
+      "component": "general.socials-cta"
+    },
+    "yearTheme": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::year-theme.year-theme"
+    },
+    "bgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

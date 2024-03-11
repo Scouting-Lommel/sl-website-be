@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_socials_ctas",
+  "info": {
+    "displayName": "socialsCta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "socialItems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::social-item.social-item"
+    }
+  }
+}

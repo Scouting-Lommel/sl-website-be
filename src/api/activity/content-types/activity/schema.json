@@ -4,33 +4,43 @@
   "info": {
     "singularName": "activity",
     "pluralName": "activities",
-    "displayName": "Activities",
+    "displayName": "activities",
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "StartTime": {
-      "type": "datetime",
+    "startDate": {
+      "type": "date",
       "required": true
     },
-    "EndTime": {
-      "type": "datetime",
-      "required": true
+    "startTime": {
+      "type": "time",
+      "required": true,
+      "default": "14:00"
     },
-    "Description": {
+    "description": {
       "type": "richtext",
       "required": true
     },
-    "Group": {
+    "group": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::group.group"
     },
-    "Title": {
+    "title": {
       "type": "string",
+      "required": true
+    },
+    "endDate": {
+      "type": "date",
+      "required": true
+    },
+    "endTime": {
+      "type": "time",
+      "default": "16:30",
       "required": true
     }
   }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_content_blocks_files_blocks",
+  "info": {
+    "displayName": "filesBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "blockProperties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.block-properties"
+    }
+  }
+}

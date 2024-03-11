@@ -4,7 +4,7 @@
   "info": {
     "singularName": "group",
     "pluralName": "groups",
-    "displayName": "Groups",
+    "displayName": "groups",
     "description": ""
   },
   "options": {
@@ -12,20 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "Files": {
+    "files": {
       "type": "media",
       "multiple": true,
       "required": false,
       "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
         "files"
       ]
     },
-    "Image": {
+    "logo": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -33,8 +36,39 @@
         "images"
       ]
     },
-    "Description": {
+    "description": {
       "type": "richtext"
+    },
+    "leaders": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::leader.leader",
+      "mappedBy": "group"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "pageTitle"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.hero-block",
+        "content-blocks.text-image-block",
+        "content-blocks.activities-block",
+        "content-blocks.leaders-block",
+        "content-blocks.files-block"
+      ]
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }

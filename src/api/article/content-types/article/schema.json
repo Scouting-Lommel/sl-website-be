@@ -4,7 +4,7 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article",
+    "displayName": "articles",
     "description": ""
   },
   "options": {
@@ -12,19 +12,36 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Content": {
+    "content": {
       "type": "richtext"
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "pageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "pageTitle"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "callsToAction": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.call-to-action"
     }
   }
 }

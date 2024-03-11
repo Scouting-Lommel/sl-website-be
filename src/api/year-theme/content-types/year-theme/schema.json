@@ -4,7 +4,7 @@
   "info": {
     "singularName": "year-theme",
     "pluralName": "year-themes",
-    "displayName": "YearTheme",
+    "displayName": "yearThemes",
     "description": ""
   },
   "options": {
@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "richtext"
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -26,11 +26,14 @@
         "images"
       ]
     },
-    "StartYear": {
+    "startYear": {
       "type": "date"
     },
-    "EndYear": {
+    "endYear": {
       "type": "date"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

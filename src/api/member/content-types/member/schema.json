@@ -4,7 +4,7 @@
   "info": {
     "singularName": "member",
     "pluralName": "members",
-    "displayName": "Members",
+    "displayName": "members",
     "description": ""
   },
   "options": {
@@ -12,47 +12,46 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "FirstName": {
+    "firstName": {
       "type": "string"
     },
-    "LastName": {
+    "lastName": {
       "type": "string"
     },
-    "Birthday": {
+    "birthday": {
       "type": "date"
     },
-    "Street": {
+    "street": {
       "type": "string"
     },
-    "Number": {
+    "number": {
       "type": "string"
     },
-    "Bus": {
+    "bus": {
       "type": "string"
     },
-    "PostCode": {
+    "postCode": {
       "type": "string"
     },
-    "City": {
+    "city": {
       "type": "string"
     },
-    "Phone": {
+    "phone": {
       "type": "string"
     },
-    "GSM": {
+    "email": {
       "type": "string"
     },
-    "Email": {
-      "type": "string"
-    },
-    "Akabe": {
+    "akabe": {
       "type": "boolean"
     },
-    "Year": {
-      "type": "string"
-    },
-    "Sex": {
-      "type": "string"
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "m",
+        "v",
+        "x"
+      ]
     }
   }
 }

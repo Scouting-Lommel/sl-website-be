@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rental_locations",
+  "info": {
+    "singularName": "rental-location",
+    "pluralName": "rental-locations",
+    "displayName": "rentalLocation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "pageTitle"
+    },
+    "pageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.calendar-block",
+        "content-blocks.gallery-block",
+        "content-blocks.hero-block",
+        "content-blocks.tarifs-block",
+        "content-blocks.text-image-block"
+      ]
+    }
+  }
+}

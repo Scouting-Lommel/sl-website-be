@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "rental_pages",
+  "info": {
+    "singularName": "rental-page",
+    "pluralName": "rental-pages",
+    "displayName": "rentalPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.calendar-block",
+        "content-blocks.gallery-block",
+        "content-blocks.hero-block",
+        "content-blocks.tarifs-block",
+        "content-blocks.text-image-block"
+      ]
+    }
+  }
+}

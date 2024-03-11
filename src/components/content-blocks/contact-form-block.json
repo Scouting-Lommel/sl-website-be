@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_blocks_contact_forms",
+  "info": {
+    "displayName": "contactFormBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subjectOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.subject-option"
+    },
+    "blockProperties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.block-properties"
+    }
+  }
+}

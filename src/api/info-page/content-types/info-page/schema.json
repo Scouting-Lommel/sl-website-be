@@ -4,7 +4,7 @@
   "info": {
     "singularName": "info-page",
     "pluralName": "info-pages",
-    "displayName": "InfoPage",
+    "displayName": "infoPage",
     "description": ""
   },
   "options": {
@@ -12,29 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "URL": {
-      "type": "string"
-    },
-    "NoIndex": {
-      "type": "boolean"
-    },
-    "InfoPage": {
-      "type": "dynamiczone",
-      "components": [
-        "content-blocks.image-text",
-        "content-blocks.call-to-action",
-        "content-blocks.faq",
-        "content-blocks.map",
-        "content-blocks.hero"
-      ]
-    },
-    "seo": {
+    "pageMeta": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "general.page-meta"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.faq-block",
+        "content-blocks.year-theme-block",
+        "content-blocks.text-image-block",
+        "content-blocks.hero-block",
+        "content-blocks.map-block"
+      ]
     }
   }
 }

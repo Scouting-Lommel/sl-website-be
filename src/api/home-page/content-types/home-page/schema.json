@@ -4,7 +4,7 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "HomePage",
+    "displayName": "homePage",
     "description": ""
   },
   "options": {
@@ -12,30 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "URL": {
-      "type": "string"
-    },
-    "NoIndex": {
-      "type": "boolean"
-    },
-    "HomePage": {
-      "type": "dynamiczone",
-      "components": [
-        "content-blocks.hero",
-        "content-blocks.call-to-action",
-        "content-blocks.blog",
-        "content-blocks.image-text",
-        "content-blocks.gallery",
-        "content-blocks.carousel"
-      ]
-    },
-    "seo": {
+    "pageMeta": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "general.page-meta"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.articles-block",
+        "content-blocks.hero-block",
+        "content-blocks.text-image-block",
+        "content-blocks.groups-block",
+        "content-blocks.gallery-block"
+      ]
     }
   }
 }
