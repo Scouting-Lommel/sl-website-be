@@ -30,5 +30,5 @@ jobs:
         run: |
           git config --global user.email "${HEROKU_EMAIL}"
           git config --global user.name "Heroku Deploy"
-          git remote add heroku https://git.heroku.com/cms-scoutinglommel.git
+          git remote add heroku https://${HEROKU_EMAIL}:${HEROKU_API_KEY}@git.heroku.com/cms-scoutinglommel.git
           git push heroku HEAD:master
