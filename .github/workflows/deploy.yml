@@ -26,9 +26,9 @@ jobs:
       - name: Deploy to Heroku
         env:
           HEROKU_API_KEY: ${{secrets.HEROKU_API_KEY}}
+          HEROKU_EMAIL: ${{secrets.HEROKU_EMAIL}}
         run: |
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          ssh-keyscan -H heroku.com >> ~/.ssh/known_hosts
-          git remote add heroku git@heroku.com:cms-scoutinglommel.git
+          git config --global user.email "${HEROKU_EMAIL}"
+          git config --global user.name "Heroku Deploy"
+          git remote add heroku https://git.heroku.com/cms-scoutinglommel.git
           git push heroku HEAD:master
