@@ -27,5 +27,6 @@ jobs:
         env:
           HEROKU_API_KEY: ${{secrets.HEROKU_API_KEY}}
         run: |
-          git remote add heroku https://git.heroku.com/cms-scoutinglommel.git
+          ssh-keyscan -H heroku.com >> ~/.ssh/known_hosts
+          git remote add heroku git@heroku.com:cms-scoutinglommel.git
           git push heroku HEAD:master
