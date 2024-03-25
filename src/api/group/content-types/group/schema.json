@@ -56,7 +56,8 @@
         "content-blocks.text-image-block",
         "content-blocks.activities-block",
         "content-blocks.leaders-block",
-        "content-blocks.files-block"
+        "content-blocks.files-block",
+        "content-blocks.divider"
       ]
     },
     "pageTitle": {

@@ -24,7 +24,8 @@
         "content-blocks.hero-block",
         "content-blocks.text-image-block",
         "content-blocks.groups-block",
-        "content-blocks.gallery-block"
+        "content-blocks.gallery-block",
+        "content-blocks.divider"
       ]
     }
   }
