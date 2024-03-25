@@ -61,7 +61,7 @@ export interface ContentBlocksDivider extends Schema.Component {
     description: '';
   };
   attributes: {
-    Variant: Attribute.Enumeration<['default', 'light']> &
+    variant: Attribute.Enumeration<['default', 'light']> &
       Attribute.Required &
       Attribute.DefaultTo<'default'>;
   };

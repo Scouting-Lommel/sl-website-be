@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "Variant": {
+    "variant": {
       "type": "enumeration",
       "enum": [
         "default",
