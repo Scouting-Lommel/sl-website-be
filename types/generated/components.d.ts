@@ -53,6 +53,20 @@ export interface ContentBlocksContactFormBlock extends Schema.Component {
   };
 }
 
+export interface ContentBlocksDivider extends Schema.Component {
+  collectionName: 'components_general_dividers';
+  info: {
+    displayName: 'divider';
+    icon: 'oneToOne';
+    description: '';
+  };
+  attributes: {
+    variant: Attribute.Enumeration<['default', 'light']> &
+      Attribute.Required &
+      Attribute.DefaultTo<'default'>;
+  };
+}
+
 export interface ContentBlocksFaqBlock extends Schema.Component {
   collectionName: 'components_content_blocks_faq_blocks';
   info: {
@@ -459,6 +473,7 @@ declare module '@strapi/types' {
       'content-blocks.articles-block': ContentBlocksArticlesBlock;
       'content-blocks.calendar-block': ContentBlocksCalendarBlock;
       'content-blocks.contact-form-block': ContentBlocksContactFormBlock;
+      'content-blocks.divider': ContentBlocksDivider;
       'content-blocks.faq-block': ContentBlocksFaqBlock;
       'content-blocks.files-block': ContentBlocksFilesBlock;
       'content-blocks.form': ContentBlocksForm;

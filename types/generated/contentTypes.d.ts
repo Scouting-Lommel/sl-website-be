@@ -965,7 +965,9 @@ export interface ApiArticlesPageArticlesPage extends Schema.SingleType {
   };
   attributes: {
     pageMeta: Attribute.Component<'general.page-meta'>;
-    blocks: Attribute.DynamicZone<['content-blocks.hero-block']>;
+    blocks: Attribute.DynamicZone<
+      ['content-blocks.hero-block', 'content-blocks.divider']
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1035,7 +1037,11 @@ export interface ApiContactPageContactPage extends Schema.SingleType {
   attributes: {
     pageMeta: Attribute.Component<'general.page-meta'>;
     blocks: Attribute.DynamicZone<
-      ['content-blocks.contact-form-block', 'content-blocks.hero-block']
+      [
+        'content-blocks.contact-form-block',
+        'content-blocks.hero-block',
+        'content-blocks.divider'
+      ]
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
@@ -1070,7 +1076,11 @@ export interface ApiDrugsAlcoholPolicyPageDrugsAlcoholPolicyPage
   attributes: {
     pageMeta: Attribute.Component<'general.page-meta'>;
     blocks: Attribute.DynamicZone<
-      ['content-blocks.hero-block', 'content-blocks.policy-block']
+      [
+        'content-blocks.hero-block',
+        'content-blocks.policy-block',
+        'content-blocks.divider'
+      ]
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
@@ -1204,7 +1214,8 @@ export interface ApiGroupGroup extends Schema.CollectionType {
         'content-blocks.text-image-block',
         'content-blocks.activities-block',
         'content-blocks.leaders-block',
-        'content-blocks.files-block'
+        'content-blocks.files-block',
+        'content-blocks.divider'
       ]
     >;
     pageTitle: Attribute.String;
@@ -1275,7 +1286,8 @@ export interface ApiGroupsPageGroupsPage extends Schema.SingleType {
       [
         'content-blocks.hero-block',
         'content-blocks.text-image-block',
-        'content-blocks.groups-block'
+        'content-blocks.groups-block',
+        'content-blocks.divider'
       ]
     >;
     createdAt: Attribute.DateTime;
@@ -1315,7 +1327,8 @@ export interface ApiHomePageHomePage extends Schema.SingleType {
         'content-blocks.hero-block',
         'content-blocks.text-image-block',
         'content-blocks.groups-block',
-        'content-blocks.gallery-block'
+        'content-blocks.gallery-block',
+        'content-blocks.divider'
       ]
     >;
     createdAt: Attribute.DateTime;
@@ -1355,7 +1368,8 @@ export interface ApiInfoPageInfoPage extends Schema.SingleType {
         'content-blocks.year-theme-block',
         'content-blocks.text-image-block',
         'content-blocks.hero-block',
-        'content-blocks.map-block'
+        'content-blocks.map-block',
+        'content-blocks.divider'
       ]
     >;
     createdAt: Attribute.DateTime;
@@ -1481,7 +1495,11 @@ export interface ApiPrivacyPolicyPagePrivacyPolicyPage
   attributes: {
     pageMeta: Attribute.Component<'general.page-meta'>;
     blocks: Attribute.DynamicZone<
-      ['content-blocks.hero-block', 'content-blocks.policy-block']
+      [
+        'content-blocks.hero-block',
+        'content-blocks.policy-block',
+        'content-blocks.divider'
+      ]
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
@@ -1515,7 +1533,11 @@ export interface ApiRegisterPageRegisterPage extends Schema.SingleType {
   attributes: {
     pageMeta: Attribute.Component<'general.page-meta'>;
     blocks: Attribute.DynamicZone<
-      ['content-blocks.hero-block', 'content-blocks.form']
+      [
+        'content-blocks.hero-block',
+        'content-blocks.form',
+        'content-blocks.divider'
+      ]
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
@@ -1558,7 +1580,8 @@ export interface ApiRentalLocationRentalLocation extends Schema.CollectionType {
         'content-blocks.gallery-block',
         'content-blocks.hero-block',
         'content-blocks.tarifs-block',
-        'content-blocks.text-image-block'
+        'content-blocks.text-image-block',
+        'content-blocks.divider'
       ]
     >;
     createdAt: Attribute.DateTime;
@@ -1598,7 +1621,8 @@ export interface ApiRentalPageRentalPage extends Schema.SingleType {
         'content-blocks.gallery-block',
         'content-blocks.hero-block',
         'content-blocks.tarifs-block',
-        'content-blocks.text-image-block'
+        'content-blocks.text-image-block',
+        'content-blocks.divider'
       ]
     >;
     createdAt: Attribute.DateTime;

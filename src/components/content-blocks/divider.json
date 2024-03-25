@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_general_dividers",
+  "info": {
+    "displayName": "divider",
+    "icon": "oneToOne",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "light"
+      ],
+      "default": "default",
+      "required": true
+    }
+  }
+}

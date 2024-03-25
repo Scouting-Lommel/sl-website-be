@@ -20,7 +20,8 @@
     "blocks": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.hero-block"
+        "content-blocks.hero-block",
+        "content-blocks.divider"
       ]
     }
   }
