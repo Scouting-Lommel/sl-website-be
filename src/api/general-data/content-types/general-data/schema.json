@@ -80,6 +80,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::social-item.social-item"
+    },
+    "leaderPrice": {
+      "type": "decimal"
+    },
+    "memberPrice": {
+      "type": "decimal"
     }
   }
 }

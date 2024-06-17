@@ -1168,6 +1168,8 @@ export interface ApiGeneralDataGeneralData extends Schema.SingleType {
       'oneToMany',
       'api::social-item.social-item'
     >;
+    leaderPrice: Attribute.Decimal;
+    memberPrice: Attribute.Decimal;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
