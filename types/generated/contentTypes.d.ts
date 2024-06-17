@@ -1037,11 +1037,7 @@ export interface ApiContactPageContactPage extends Schema.SingleType {
   attributes: {
     pageMeta: Attribute.Component<'general.page-meta'>;
     blocks: Attribute.DynamicZone<
-      [
-        'content-blocks.contact-form-block',
-        'content-blocks.hero-block',
-        'content-blocks.divider'
-      ]
+      ['content-blocks.hero-block', 'content-blocks.divider']
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
@@ -1535,11 +1531,7 @@ export interface ApiRegisterPageRegisterPage extends Schema.SingleType {
   attributes: {
     pageMeta: Attribute.Component<'general.page-meta'>;
     blocks: Attribute.DynamicZone<
-      [
-        'content-blocks.hero-block',
-        'content-blocks.form',
-        'content-blocks.divider'
-      ]
+      ['content-blocks.hero-block', 'content-blocks.divider']
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
