@@ -21,13 +21,7 @@
     "birthday": {
       "type": "date"
     },
-    "street": {
-      "type": "string"
-    },
-    "number": {
-      "type": "string"
-    },
-    "bus": {
+    "address": {
       "type": "string"
     },
     "postCode": {

@@ -1452,9 +1452,7 @@ export interface ApiMemberMember extends Schema.CollectionType {
     firstName: Attribute.String;
     lastName: Attribute.String;
     birthday: Attribute.Date;
-    street: Attribute.String;
-    number: Attribute.String;
-    bus: Attribute.String;
+    address: Attribute.String;
     postCode: Attribute.String;
     city: Attribute.String;
     phone: Attribute.String;
