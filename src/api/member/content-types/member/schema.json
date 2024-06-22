@@ -27,7 +27,7 @@
     "postCode": {
       "type": "string"
     },
-    "city": {
+    "locality": {
       "type": "string"
     },
     "phone": {
@@ -36,7 +36,7 @@
     "email": {
       "type": "string"
     },
-    "akabe": {
+    "isAkabe": {
       "type": "boolean"
     },
     "gender": {
