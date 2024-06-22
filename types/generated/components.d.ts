@@ -40,19 +40,6 @@ export interface ContentBlocksCalendarBlock extends Schema.Component {
   };
 }
 
-export interface ContentBlocksContactFormBlock extends Schema.Component {
-  collectionName: 'components_content_blocks_contact_forms';
-  info: {
-    displayName: 'contactFormBlock';
-    description: '';
-  };
-  attributes: {
-    title: Attribute.String;
-    subjectOptions: Attribute.Component<'general.subject-option', true>;
-    blockProperties: Attribute.Component<'general.block-properties'>;
-  };
-}
-
 export interface ContentBlocksDivider extends Schema.Component {
   collectionName: 'components_general_dividers';
   info: {
@@ -472,7 +459,6 @@ declare module '@strapi/types' {
       'content-blocks.activities-block': ContentBlocksActivitiesBlock;
       'content-blocks.articles-block': ContentBlocksArticlesBlock;
       'content-blocks.calendar-block': ContentBlocksCalendarBlock;
-      'content-blocks.contact-form-block': ContentBlocksContactFormBlock;
       'content-blocks.divider': ContentBlocksDivider;
       'content-blocks.faq-block': ContentBlocksFaqBlock;
       'content-blocks.files-block': ContentBlocksFilesBlock;
