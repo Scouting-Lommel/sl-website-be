@@ -84,19 +84,6 @@ export interface ContentBlocksFilesBlock extends Schema.Component {
   };
 }
 
-export interface ContentBlocksForm extends Schema.Component {
-  collectionName: 'components_content_blocks_forms';
-  info: {
-    displayName: 'Form';
-    description: '';
-  };
-  attributes: {
-    bankAccount: Attribute.String;
-    leaderPrice: Attribute.Decimal;
-    childPrice: Attribute.Decimal;
-  };
-}
-
 export interface ContentBlocksGalleryBlock extends Schema.Component {
   collectionName: 'components_content_blocks_gallery_blocks';
   info: {
@@ -462,7 +449,6 @@ declare module '@strapi/types' {
       'content-blocks.divider': ContentBlocksDivider;
       'content-blocks.faq-block': ContentBlocksFaqBlock;
       'content-blocks.files-block': ContentBlocksFilesBlock;
-      'content-blocks.form': ContentBlocksForm;
       'content-blocks.gallery-block': ContentBlocksGalleryBlock;
       'content-blocks.groups-block': ContentBlocksGroupsBlock;
       'content-blocks.hero-block': ContentBlocksHeroBlock;
