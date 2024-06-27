@@ -21,7 +21,6 @@
       "type": "dynamiczone",
       "components": [
         "content-blocks.hero-block",
-        "content-blocks.form",
         "content-blocks.divider"
       ]
     }

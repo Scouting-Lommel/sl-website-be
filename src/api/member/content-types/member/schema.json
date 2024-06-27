@@ -21,19 +21,13 @@
     "birthday": {
       "type": "date"
     },
-    "street": {
-      "type": "string"
-    },
-    "number": {
-      "type": "string"
-    },
-    "bus": {
+    "address": {
       "type": "string"
     },
     "postCode": {
       "type": "string"
     },
-    "city": {
+    "locality": {
       "type": "string"
     },
     "phone": {
@@ -42,7 +36,7 @@
     "email": {
       "type": "string"
     },
-    "akabe": {
+    "isAkabe": {
       "type": "boolean"
     },
     "gender": {

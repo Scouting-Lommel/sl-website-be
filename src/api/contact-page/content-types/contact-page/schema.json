@@ -20,7 +20,6 @@
     "blocks": {
       "type": "dynamiczone",
       "components": [
-        "content-blocks.contact-form-block",
         "content-blocks.hero-block",
         "content-blocks.divider"
       ]

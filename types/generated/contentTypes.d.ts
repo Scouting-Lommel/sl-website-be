@@ -1037,11 +1037,7 @@ export interface ApiContactPageContactPage extends Schema.SingleType {
   attributes: {
     pageMeta: Attribute.Component<'general.page-meta'>;
     blocks: Attribute.DynamicZone<
-      [
-        'content-blocks.contact-form-block',
-        'content-blocks.hero-block',
-        'content-blocks.divider'
-      ]
+      ['content-blocks.hero-block', 'content-blocks.divider']
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
@@ -1168,6 +1164,8 @@ export interface ApiGeneralDataGeneralData extends Schema.SingleType {
       'oneToMany',
       'api::social-item.social-item'
     >;
+    leaderPrice: Attribute.Decimal;
+    memberPrice: Attribute.Decimal;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1454,14 +1452,12 @@ export interface ApiMemberMember extends Schema.CollectionType {
     firstName: Attribute.String;
     lastName: Attribute.String;
     birthday: Attribute.Date;
-    street: Attribute.String;
-    number: Attribute.String;
-    bus: Attribute.String;
+    address: Attribute.String;
     postCode: Attribute.String;
-    city: Attribute.String;
+    locality: Attribute.String;
     phone: Attribute.String;
     email: Attribute.String;
-    akabe: Attribute.Boolean;
+    isAkabe: Attribute.Boolean;
     gender: Attribute.Enumeration<['m', 'v', 'x']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
@@ -1533,11 +1529,7 @@ export interface ApiRegisterPageRegisterPage extends Schema.SingleType {
   attributes: {
     pageMeta: Attribute.Component<'general.page-meta'>;
     blocks: Attribute.DynamicZone<
-      [
-        'content-blocks.hero-block',
-        'content-blocks.form',
-        'content-blocks.divider'
-      ]
+      ['content-blocks.hero-block', 'content-blocks.divider']
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
