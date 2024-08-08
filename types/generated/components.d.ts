@@ -237,7 +237,7 @@ export interface GeneralBlockProperties extends Schema.Component {
       Attribute.DefaultTo<'dark'>;
     orientation: Attribute.Enumeration<['default', 'reversed']> &
       Attribute.DefaultTo<'default'>;
-    slug: Attribute.String & Attribute.Unique;
+    slug: Attribute.String;
   };
 }
 
