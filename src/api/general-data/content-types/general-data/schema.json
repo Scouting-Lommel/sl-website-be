@@ -86,6 +86,12 @@
     },
     "memberPrice": {
       "type": "decimal"
+    },
+    "globalAlert": {
+      "displayName": "GlobalAlert",
+      "type": "component",
+      "repeatable": false,
+      "component": "general.global-alert"
     }
   }
 }
