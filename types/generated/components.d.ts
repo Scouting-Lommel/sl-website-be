@@ -317,6 +317,22 @@ export interface GeneralFooterNav extends Schema.Component {
   };
 }
 
+export interface GeneralGlobalAlert extends Schema.Component {
+  collectionName: 'components_general_global_alerts';
+  info: {
+    displayName: 'GlobalAlert';
+    icon: 'quote';
+    description: '';
+  };
+  attributes: {
+    label: Attribute.RichText;
+    variant: Attribute.Enumeration<['info', 'warning', 'error']> &
+      Attribute.Required &
+      Attribute.DefaultTo<'info'>;
+    enabled: Attribute.Boolean;
+  };
+}
+
 export interface GeneralLink extends Schema.Component {
   collectionName: 'components_general_links';
   info: {
@@ -464,6 +480,7 @@ declare module '@strapi/types' {
       'general.contact-item': GeneralContactItem;
       'general.dropdown-item': GeneralDropdownItem;
       'general.footer-nav': GeneralFooterNav;
+      'general.global-alert': GeneralGlobalAlert;
       'general.link': GeneralLink;
       'general.navigation-item': GeneralNavigationItem;
       'general.page-meta': GeneralPageMeta;

@@ -1166,6 +1166,7 @@ export interface ApiGeneralDataGeneralData extends Schema.SingleType {
     >;
     leaderPrice: Attribute.Decimal;
     memberPrice: Attribute.Decimal;
+    globalAlert: Attribute.Component<'general.global-alert'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

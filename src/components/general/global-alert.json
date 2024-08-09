@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_general_global_alerts",
+  "info": {
+    "displayName": "GlobalAlert",
+    "icon": "quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "richtext"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "info",
+        "warning",
+        "error"
+      ],
+      "default": "info",
+      "required": true
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  }
+}
