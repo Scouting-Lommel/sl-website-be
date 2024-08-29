@@ -1460,6 +1460,7 @@ export interface ApiMemberMember extends Schema.CollectionType {
     email: Attribute.String;
     isAkabe: Attribute.Boolean;
     gender: Attribute.Enumeration<['m', 'v', 'x']>;
+    comments: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
