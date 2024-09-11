@@ -49,6 +49,9 @@
     },
     "comments": {
       "type": "text"
+    },
+    "workingYear": {
+      "type": "string"
     }
   }
 }

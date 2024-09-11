@@ -1461,6 +1461,7 @@ export interface ApiMemberMember extends Schema.CollectionType {
     isAkabe: Attribute.Boolean;
     gender: Attribute.Enumeration<['m', 'v', 'x']>;
     comments: Attribute.Text;
+    workingYear: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
