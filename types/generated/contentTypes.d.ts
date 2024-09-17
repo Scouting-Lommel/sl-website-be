@@ -1220,6 +1220,7 @@ export interface ApiGroupGroup extends Schema.CollectionType {
     pageTitle: Attribute.String;
     pageMeta: Attribute.Component<'general.page-meta'>;
     subtitle: Attribute.String;
+    links: Attribute.Component<'general.link', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
