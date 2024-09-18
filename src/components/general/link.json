@@ -10,7 +10,9 @@
       "type": "string"
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "regex": "^(https?:\\/\\/[^\\s\\/$.?#].[^\\s]*)|(^\\/[^\\s]*)$",
+      "required": true
     }
   }
 }

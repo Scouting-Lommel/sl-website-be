@@ -341,7 +341,7 @@ export interface GeneralLink extends Schema.Component {
   };
   attributes: {
     label: Attribute.String;
-    link: Attribute.String;
+    link: Attribute.String & Attribute.Required;
   };
 }
 
