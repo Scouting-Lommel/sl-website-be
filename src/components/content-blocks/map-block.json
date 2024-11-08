@@ -13,6 +13,13 @@
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
+    },
+    "location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    },
+    "mapsQuery": {
+      "type": "string"
     }
   }
 }
