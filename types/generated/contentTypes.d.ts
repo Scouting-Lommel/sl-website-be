@@ -1057,6 +1057,43 @@ export interface ApiContactPageContactPage extends Schema.SingleType {
   };
 }
 
+export interface ApiCookiePolicyPageCookiePolicyPage extends Schema.SingleType {
+  collectionName: 'cookie_policy_pages';
+  info: {
+    singularName: 'cookie-policy-page';
+    pluralName: 'cookie-policy-pages';
+    displayName: 'cookiePolicyPage';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    pageMeta: Attribute.Component<'general.page-meta'>;
+    blocks: Attribute.DynamicZone<
+      [
+        'content-blocks.hero-block',
+        'content-blocks.policy-block',
+        'content-blocks.divider'
+      ]
+    >;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::cookie-policy-page.cookie-policy-page',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::cookie-policy-page.cookie-policy-page',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiDrugsAlcoholPolicyPageDrugsAlcoholPolicyPage
   extends Schema.SingleType {
   collectionName: 'drugs_alcohol_policy_pages';
@@ -1764,6 +1801,7 @@ declare module '@strapi/types' {
       'api::articles-page.articles-page': ApiArticlesPageArticlesPage;
       'api::booking.booking': ApiBookingBooking;
       'api::contact-page.contact-page': ApiContactPageContactPage;
+      'api::cookie-policy-page.cookie-policy-page': ApiCookiePolicyPageCookiePolicyPage;
       'api::drugs-alcohol-policy-page.drugs-alcohol-policy-page': ApiDrugsAlcoholPolicyPageDrugsAlcoholPolicyPage;
       'api::faq-item.faq-item': ApiFaqItemFaqItem;
       'api::general-data.general-data': ApiGeneralDataGeneralData;
