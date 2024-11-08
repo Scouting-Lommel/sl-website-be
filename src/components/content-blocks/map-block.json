@@ -17,6 +17,9 @@
     "location": {
       "type": "customField",
       "customField": "plugin::google-maps.location-picker"
+    },
+    "mapsQuery": {
+      "type": "string"
     }
   }
 }
