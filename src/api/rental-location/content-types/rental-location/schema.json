@@ -38,7 +38,8 @@
         "content-blocks.hero-block",
         "content-blocks.tarifs-block",
         "content-blocks.text-image-block",
-        "content-blocks.divider"
+        "content-blocks.divider",
+        "content-blocks.map-block"
       ]
     }
   }

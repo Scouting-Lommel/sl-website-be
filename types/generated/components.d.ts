@@ -161,6 +161,8 @@ export interface ContentBlocksMapBlock extends Schema.Component {
   attributes: {
     title: Attribute.String;
     blockProperties: Attribute.Component<'general.block-properties'>;
+    location: Attribute.JSON &
+      Attribute.CustomField<'plugin::google-maps.location-picker'>;
   };
 }
 
