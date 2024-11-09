@@ -43,4 +43,7 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  "google-maps": {
+    enabled: true,
+  },
 });
