@@ -83,6 +83,7 @@ nbproject
 public/uploads/*
 !public/uploads/.gitkeep
 
+
 ############################
 # Node.js
 ############################
@@ -95,12 +96,14 @@ results
 node_modules
 .node_history
 
+
 ############################
 # Tests
 ############################
 
 testApp
 coverage
+
 
 ############################
 # Strapi
@@ -112,3 +115,10 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+
+############################
+# Generated types
+############################
+
+types/generated/*
