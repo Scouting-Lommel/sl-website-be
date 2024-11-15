@@ -18,12 +18,6 @@ TODO: complete user manual
 
 ## Using the admin panel
 
-### Structure
-
-> ⚠️ This diagram is not up to date
-
-![Website ERD](/documentation/assets/relationship-diagram.jpg)
-
 #### Components
 
 ##### Content blocks
