@@ -4,7 +4,8 @@
   "info": {
     "singularName": "cookie-policy-page",
     "pluralName": "cookie-policy-pages",
-    "displayName": "cookiePolicyPage"
+    "displayName": "Pagina - Cookie policy",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
