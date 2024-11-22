@@ -10,7 +10,11 @@ import netlifyDeployments from "strapi-plugin-netlify-deployments/strapi-admin";
 import publisher from "strapi-plugin-publisher/strapi-admin";
 import { renderAdmin } from "@strapi/strapi/admin";
 
+import customisations from "../../src/admin/app.js";
+
 renderAdmin(document.getElementById("strapi"), {
+  customisations,
+
   plugins: {
     "google-maps": googleMaps,
     graphql: graphql,
