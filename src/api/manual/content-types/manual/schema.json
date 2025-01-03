@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manuals",
+  "info": {
+    "singularName": "manual",
+    "pluralName": "manuals",
+    "displayName": "Handleidingen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "body": {
+      "type": "blocks",
+      "required": true
+    },
+    "locked": {
+      "type": "boolean",
+      "default": true
+    },
+    "pageMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.page-meta"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    }
+  }
+}
