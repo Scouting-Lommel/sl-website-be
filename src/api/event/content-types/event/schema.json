@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Evenementen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "startTime": {
+      "type": "time",
+      "required": false
+    },
+    "endDate": {
+      "type": "date",
+      "required": false
+    },
+    "endTime": {
+      "type": "time",
+      "required": false
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
