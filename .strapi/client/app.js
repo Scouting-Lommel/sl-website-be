@@ -20,7 +20,6 @@ renderAdmin(document.getElementById("strapi"), {
     graphql: graphql,
     i18n: i18N,
     "users-permissions": usersPermissions,
-    "netlify-deployments": netlifyDeployments,
     publisher: publisher,
   },
 });
