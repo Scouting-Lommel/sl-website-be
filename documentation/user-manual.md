@@ -42,8 +42,6 @@ TODO: complete user manual
 
 #### Upload
 
-#### Netlify deployments
-
 #### Publisher
 
 #### GraphQL

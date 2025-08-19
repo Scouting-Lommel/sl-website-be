@@ -43,8 +43,8 @@ For detailed instructions, check out the [getting started docs](/documentation/g
 | Resource       | Provider                                                 | Comments                                                  |
 | :------------- | :------------------------------------------------------- | :-------------------------------------------------------- |
 | DNS            | [Cloudflare](https://www.cloudflare.com/) DNS management | DNS management with Cloudflare routing & DDoS protection. |
-| Frontend app   | Hosting on [Netlify](https://www.netlify.app)            | Dynamic hosting with CI/CD capabilities for FE app.       |
-| Backend CMS    | Hosting on [Railway](https://www.railway.app)            | Dynamic hosting with CI/CD capabilities for BE CMS.       |
+| Frontend app   | Hosting on [Vercel](https://www.vercel.com)              | Dynamic hosting with CI/CD capabilities for FE app.       |
+| Backend CMS    | Hosting on [Heroku](https://www.heroku.com)              | Dynamic hosting with CI/CD capabilities for BE CMS.       |
 | Error tracking | [Sentry](https://www.sentry.com)                         | Error tracking in a Sentry dashboard.                     |
 
 For a detailed view and instructions, check out the [deployment docs](/documentation/deployment.md).

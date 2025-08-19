@@ -13,18 +13,14 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  "netlify-deployments": {
+  "vercel-deploy": {
     enabled: true,
     config: {
-      accessToken: process.env.NETLIFY_DEPLOYMENTS_PLUGIN_ACCESS_TOKEN,
-      sites: [
-        {
-          name: "SLWEB FE",
-          id: process.env.NETLIFY_DEPLOYMENTS_PLUGIN_SITE_ID,
-          buildHook: process.env.NETLIFY_DEPLOYMENTS_PLUGIN_BUILD_HOOK,
-          branch: "master",
-        },
-      ],
+      deployHook: process.env.VERCEL_DEPLOY_PLUGIN_HOOK,
+      apiToken: process.env.VERCEL_DEPLOY_PLUGIN_API_TOKEN,
+      appFilter: process.env.VERCEL_DEPLOY_PLUGIN_APP_FILTER,
+      teamFilter: process.env.VERCEL_DEPLOY_PLUGIN_TEAM_FILTER,
+      roles: ["strapi-super-admin"],
     },
   },
   publisher: {
