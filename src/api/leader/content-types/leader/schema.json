@@ -53,6 +53,24 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "leader"
+    },
+    "totem": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "memberSince": {
+      "type": "date"
+    },
+    "leaderSince": {
+      "type": "date"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
     }
   }
 }
