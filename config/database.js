@@ -68,6 +68,6 @@ module.exports = ({ env }) => ({
         }
       })(),
     },
-    debug: env("APP_ENV") === "production" ? false : true,
+    debug: false,
   },
 });

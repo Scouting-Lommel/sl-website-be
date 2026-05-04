@@ -7,10 +7,10 @@
   "author": {
     "name": "Scouting Lommel"
   },
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
     "build": "strapi build",
-    "develop": "strapi develop",
-    "preinstall": "npx only-allow npm",
+    "dev": "strapi develop",
     "start": "strapi start",
     "strapi": "strapi"
   },
@@ -30,6 +30,17 @@
     "strapi-plugin-slugify": "^2.3.2",
     "strapi-plugin-vercel-deploy": "^1.4.0",
     "styled-components": "^5.3.11"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@apollo/protobufjs",
+      "@strapi/strapi",
+      "@swc/core",
+      "core-js",
+      "core-js-pure",
+      "esbuild",
+      "sharp"
+    ]
   },
   "strapi": {
     "uuid": "b7ca386d-29d3-4bee-a89d-bcc53a30cb7e"
