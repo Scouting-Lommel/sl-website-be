@@ -24,8 +24,8 @@
 1. Clone this repo onto your machine and navigate to the local repo
 
    ```bash
-   git clone https://github.com/Scouting-Lommel/sl-website-be.git
-   cd sl-website-be
+   git clone https://github.com/Scouting-Lommel/admin.scoutinglommel.be.git
+   cd admin.scoutinglommel.be
    ```
 
 2. Copy the example environment file
