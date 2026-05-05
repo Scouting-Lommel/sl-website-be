@@ -15,19 +15,19 @@ module.exports = ({ env }) => ({
             return "";
         }
       })(),
-      port: env.int(() => {
+      port: (() => {
         switch (env("APP_ENV")) {
           case "production":
-            return env("DB_PORT");
+            return env.int("DB_PORT");
           case "development":
-            return env("DEV_DB_PORT");
+            return env.int("DEV_DB_PORT");
           case "uat":
-            return env("UAT_DB_PORT");
+            return env.int("UAT_DB_PORT");
           default:
             console.error("The application environment is wrong or undefined!");
             return null;
         }
-      }),
+      })(),
       database: (() => {
         switch (env("APP_ENV")) {
           case "production":
