@@ -10,7 +10,7 @@
   "packageManager": "pnpm@10.33.0",
   "scripts": {
     "build": "strapi build",
-    "dev": "portless run strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "strapi": "strapi"
   },
@@ -40,8 +40,5 @@
   "strapi": {
     "uuid": "b7ca386d-29d3-4bee-a89d-bcc53a30cb7e"
   },
-  "portless": "admin.scoutinglommel",
-  "devDependencies": {
-    "portless": "^0.12.0"
-  }
+  "devDependencies": {}
 }

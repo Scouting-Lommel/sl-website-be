@@ -38,10 +38,6 @@ importers:
       styled-components:
         specifier: ^6.0.0
         version: 6.4.1(css-to-react-native@3.2.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-    devDependencies:
-      portless:
-        specifier: ^0.12.0
-        version: 0.12.0
 
 packages:
 
@@ -5699,12 +5695,6 @@ packages:
   pony-cause@2.1.11:
     resolution: {integrity: sha512-M7LhCsdNbNgiLYiP4WjsfLUuFmCfnjdF6jKe2R9NKl4WFN+HZPGHJZ9lnLP7f9ZnKe3U9nuWD0szirmj+migUg==}
     engines: {node: '>=12.0.0'}
-
-  portless@0.12.0:
-    resolution: {integrity: sha512-zE8EYJ5xIEtKEBu1wnD+FavOE90/GNxRixF4Mu2hxMvDuVx1ftUbA6VbjbxI9sP9LUt0L26l6OiENGo4EFtLfw==}
-    engines: {node: '>=20'}
-    os: [darwin, linux, win32]
-    hasBin: true
 
   possible-typed-array-names@1.1.0:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
@@ -13939,8 +13929,6 @@ snapshots:
   pluralize@8.0.0: {}
 
   pony-cause@2.1.11: {}
-
-  portless@0.12.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
