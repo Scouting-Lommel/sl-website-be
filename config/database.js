@@ -1,73 +1,29 @@
-module.exports = ({ env }) => ({
-  connection: {
-    client: "mysql",
+module.exports = ({ env }) => {
+  const appEnv = env("APP_ENV");
+  const prefixByEnv = {
+    production: "DB",
+    development: "DEV_DB",
+    uat: "UAT_DB",
+  };
+
+  const prefix = prefixByEnv[appEnv];
+  if (!prefix) {
+    throw new Error(
+      `Invalid APP_ENV "${appEnv}". Expected one of: ${Object.keys(prefixByEnv).join(", ")}`
+    );
+  }
+
+  return {
     connection: {
-      host: (() => {
-        switch (env("APP_ENV")) {
-          case "production":
-            return env("DB_HOST");
-          case "development":
-            return env("DEV_DB_HOST");
-          case "uat":
-            return env("UAT_DB_HOST");
-          default:
-            console.error("The application environment is wrong or undefined!");
-            return "";
-        }
-      })(),
-      port: (() => {
-        switch (env("APP_ENV")) {
-          case "production":
-            return env.int("DB_PORT");
-          case "development":
-            return env.int("DEV_DB_PORT");
-          case "uat":
-            return env.int("UAT_DB_PORT");
-          default:
-            console.error("The application environment is wrong or undefined!");
-            return null;
-        }
-      })(),
-      database: (() => {
-        switch (env("APP_ENV")) {
-          case "production":
-            return env("DB_NAME");
-          case "development":
-            return env("DEV_DB_NAME");
-          case "uat":
-            return env("UAT_DB_NAME");
-          default:
-            console.error("The application environment is wrong or undefined!");
-            return "";
-        }
-      })(),
-      user: (() => {
-        switch (env("APP_ENV")) {
-          case "production":
-            return env("DB_USERNAME");
-          case "development":
-            return env("DEV_DB_USERNAME");
-          case "uat":
-            return env("UAT_DB_USERNAME");
-          default:
-            console.error("The application environment is wrong or undefined!");
-            return "";
-        }
-      })(),
-      password: (() => {
-        switch (env("APP_ENV")) {
-          case "production":
-            return env("DB_PASSWORD");
-          case "development":
-            return env("DEV_DB_PASSWORD");
-          case "uat":
-            return env("UAT_DB_PASSWORD");
-          default:
-            console.error("The application environment is wrong or undefined!");
-            return "";
-        }
-      })(),
+      client: "mysql",
+      connection: {
+        host: env(`${prefix}_HOST`),
+        port: env.int(`${prefix}_PORT`),
+        database: env(`${prefix}_NAME`),
+        user: env(`${prefix}_USERNAME`),
+        password: env(`${prefix}_PASSWORD`),
+      },
+      debug: false,
     },
-    debug: false,
-  },
-});
+  };
+};

@@ -8,6 +8,9 @@
     "name": "Scouting Lommel"
   },
   "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x"
+  },
   "scripts": {
     "build": "strapi build",
     "dev": "strapi develop",
