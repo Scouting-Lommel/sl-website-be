@@ -1,5 +1,4 @@
 module.exports = [
-  "strapi::proxy",
   "strapi::errors",
   "strapi::cors",
   "strapi::poweredBy",
