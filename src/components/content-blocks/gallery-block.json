@@ -6,14 +6,14 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "galleryTitle": {
       "type": "string"
     },
-    "initialItems": {
+    "galleryInitialItems": {
       "type": "integer",
       "default": 6
     },
-    "images": {
+    "galleryImages": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -24,12 +24,12 @@
         "audios"
       ]
     },
-    "blockProperties": {
+    "galleryBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "callToAction": {
+    "galleryCallToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"

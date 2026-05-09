@@ -6,20 +6,20 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "groupsTitle": {
       "type": "string"
     },
-    "groups": {
+    "groupsItems": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::group.group"
     },
-    "blockProperties": {
+    "groupsBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "callToAction": {
+    "groupsCallToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"

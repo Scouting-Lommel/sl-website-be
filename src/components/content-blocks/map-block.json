@@ -6,19 +6,19 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "mapTitle": {
       "type": "string"
     },
-    "blockProperties": {
+    "mapBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "location": {
+    "mapLocation": {
       "type": "customField",
       "customField": "plugin::google-maps.location-picker"
     },
-    "mapsQuery": {
+    "mapQuery": {
       "type": "string"
     }
   }

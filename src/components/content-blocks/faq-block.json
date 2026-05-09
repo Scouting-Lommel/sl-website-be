@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "faqTitle": {
       "type": "string"
     },
     "faqItems": {
@@ -14,12 +14,12 @@
       "relation": "oneToMany",
       "target": "api::faq-item.faq-item"
     },
-    "blockProperties": {
+    "faqBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "bottomText": {
+    "faqBottomText": {
       "type": "richtext"
     }
   }

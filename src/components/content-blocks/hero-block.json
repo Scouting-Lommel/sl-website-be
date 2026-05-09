@@ -6,15 +6,18 @@
   },
   "options": {},
   "attributes": {
-    "subtitle": {
+    "heroTitle": {
+      "type": "richtext"
+    },
+    "heroSubtitle": {
       "type": "string"
     },
-    "callToAction": {
+    "heroCta": {
       "type": "component",
       "repeatable": true,
       "component": "general.button"
     },
-    "variant": {
+    "heroVariant": {
       "type": "enumeration",
       "enum": [
         "default",
@@ -23,18 +26,18 @@
       ],
       "default": "default"
     },
-    "socialsCta": {
+    "heroSocialsCta": {
       "displayName": "SocialsCta",
       "type": "component",
       "repeatable": false,
       "component": "general.socials-cta"
     },
-    "yearTheme": {
+    "heroYearTheme": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::year-theme.year-theme"
     },
-    "bgImage": {
+    "heroBgImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -44,9 +47,6 @@
         "videos",
         "audios"
       ]
-    },
-    "title": {
-      "type": "richtext"
     }
   }
 }

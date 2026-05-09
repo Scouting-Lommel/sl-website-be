@@ -6,10 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "filesTitle": {
       "type": "string"
     },
-    "blockProperties": {
+    "filesBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
