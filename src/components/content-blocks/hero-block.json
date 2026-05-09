@@ -9,12 +9,12 @@
     "subtitle": {
       "type": "string"
     },
-    "callToAction": {
+    "heroCta": {
       "type": "component",
       "repeatable": true,
       "component": "general.button"
     },
-    "variant": {
+    "heroVariant": {
       "type": "enumeration",
       "enum": [
         "default",
@@ -45,7 +45,7 @@
         "audios"
       ]
     },
-    "title": {
+    "heroTitle": {
       "type": "richtext"
     }
   }

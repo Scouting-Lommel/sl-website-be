@@ -23,7 +23,7 @@
         "audios"
       ]
     },
-    "variant": {
+    "layout": {
       "type": "enumeration",
       "enum": [
         "default",
