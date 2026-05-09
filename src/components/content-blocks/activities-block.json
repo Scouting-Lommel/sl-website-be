@@ -17,7 +17,7 @@
     "callToAction": {
       "type": "component",
       "repeatable": false,
-      "component": "general.block-properties"
+      "component": "general.call-to-action"
     },
     "initialItems": {
       "type": "integer"
