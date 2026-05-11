@@ -6,20 +6,20 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "tarifsTitle": {
       "type": "string"
     },
-    "tarifs": {
+    "tarifsItems": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tarif.tarif"
     },
-    "blockProperties": {
+    "tarifsBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "callToAction": {
+    "tarifsCallToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"

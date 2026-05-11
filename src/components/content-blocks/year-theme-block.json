@@ -6,15 +6,15 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "yearThemeTitle": {
       "type": "string"
     },
-    "blockProperties": {
+    "yearThemeBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "callToAction": {
+    "yearThemeCallToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"

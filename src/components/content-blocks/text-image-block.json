@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "textImageTitle": {
       "type": "string"
     },
-    "content": {
+    "textImageContent": {
       "type": "richtext"
     },
-    "images": {
+    "textImageImages": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -23,7 +23,7 @@
         "audios"
       ]
     },
-    "variant": {
+    "textImageLayout": {
       "type": "enumeration",
       "enum": [
         "default",
@@ -31,17 +31,17 @@
       ],
       "default": "default"
     },
-    "ctaButton": {
+    "textImageCtaButton": {
       "type": "component",
       "repeatable": false,
       "component": "general.button"
     },
-    "blockProperties": {
+    "textImageBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "callToAction": {
+    "textImageCallToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"

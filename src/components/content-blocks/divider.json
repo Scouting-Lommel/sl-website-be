@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "variant": {
+    "dividerVariant": {
       "type": "enumeration",
       "enum": [
         "default",

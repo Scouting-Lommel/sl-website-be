@@ -6,20 +6,20 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "activitiesTitle": {
       "type": "string"
     },
-    "blockProperties": {
+    "activitiesBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "callToAction": {
+    "activitiesCallToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"
     },
-    "initialItems": {
+    "activitiesInitialItems": {
       "type": "integer"
     }
   }

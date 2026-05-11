@@ -6,15 +6,15 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "articlesTitle": {
       "type": "string"
     },
-    "blockProperties": {
+    "articlesBlockProperties": {
       "type": "component",
       "repeatable": false,
       "component": "general.block-properties"
     },
-    "callToAction": {
+    "articlesCallToAction": {
       "type": "component",
       "repeatable": false,
       "component": "general.call-to-action"
