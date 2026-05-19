@@ -1,8 +1,0 @@
-[build]
-buildCommand = "pnpm install --frozen-lockfile && pnpm build"
-
-[deploy]
-startCommand = "pnpm start"
-healthcheckPath = "/_health"
-restartPolicyType = "on_failure"
-restartPolicyMaxRetries = 10
