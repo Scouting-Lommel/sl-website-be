@@ -2,8 +2,6 @@
 
 Backend to the new and refreshed [Scouting Lommel website](https://www.scoutinglommel.be).
 
-Deployed on Coolify.
-
 ## Table of contents
 
 - [Tech stack](#tech-stack)
