@@ -49,7 +49,10 @@
       "core-js-pure",
       "esbuild",
       "sharp"
-    ]
+    ],
+    "patchedDependencies": {
+      "@strapi/content-manager": "patches/@strapi__content-manager.patch"
+    }
   },
   "strapi": {
     "uuid": "b7ca386d-29d3-4bee-a89d-bcc53a30cb7e"
