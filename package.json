@@ -19,10 +19,10 @@
   },
   "dependencies": {
     "@amicaldo/strapi-google-maps": "^3.0.2",
-    "@strapi/plugin-graphql": "^5.46.0",
-    "@strapi/plugin-users-permissions": "^5.46.0",
-    "@strapi/provider-upload-cloudinary": "^5.46.0",
-    "@strapi/strapi": "^5.46.0",
+    "@strapi/plugin-graphql": "^5.47.0",
+    "@strapi/plugin-users-permissions": "^5.47.0",
+    "@strapi/provider-upload-cloudinary": "^5.47.0",
+    "@strapi/strapi": "^5.47.0",
     "mysql2": "^3.22.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -49,10 +49,7 @@
       "core-js-pure",
       "esbuild",
       "sharp"
-    ],
-    "patchedDependencies": {
-      "@strapi/content-manager": "patches/@strapi__content-manager.patch"
-    }
+    ]
   },
   "strapi": {
     "uuid": "b7ca386d-29d3-4bee-a89d-bcc53a30cb7e"
